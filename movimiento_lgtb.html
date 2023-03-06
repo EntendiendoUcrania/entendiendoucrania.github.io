@@ -94,7 +94,12 @@
         });
     
         window.addEventListener('resize', function() {
-          msnry.layout();
+            msnry = new Masonry( grid, {
+            itemSelector: '.grid-item',
+            columnWidth: '.grid-item',
+            gutter: 10,
+            debounceResize: false
+         });
         });
         </script>
 
