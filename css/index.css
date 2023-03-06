@@ -664,9 +664,12 @@
       }
 
       .logo {
-        width: 45px;
+        width: 25px;
       }
     
+      main {
+        max-width: 100%;
+      }
 
     }
 
