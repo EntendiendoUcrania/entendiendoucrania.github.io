@@ -621,7 +621,7 @@
   /* main logo */
 
   .logo {
-    width: 125px
+    width: 85px
   }
 
 
@@ -663,8 +663,14 @@
         margin-top: 2.5rem;
       }
 
+      .logo {
+        width: 45px;
+      }
+    
+
     }
-  
+
+
 
 
       /* header nav {
