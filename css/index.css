@@ -1,0 +1,763 @@
+@font-face {
+    font-family: 'Latin Modern';
+    font-style: normal;
+    font-weight: normal;
+    font-display: swap;
+    src: url('./fonts/LM-regular.woff2') format('woff2'),
+      url('./fonts/LM-regular.woff') format('woff'),
+      url('./fonts/LM-regular.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'Latin Modern';
+    font-style: italic;
+    font-weight: normal;
+    font-display: swap;
+    src: url('./fonts/LM-italic.woff2') format('woff2'),
+      url('./fonts/LM-italic.woff') format('woff'),
+      url('./fonts/LM-italic.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'Latin Modern';
+    font-style: normal;
+    font-weight: bold;
+    font-display: swap;
+    src: url('./fonts/LM-bold.woff2') format('woff2'),
+      url('./fonts/LM-bold.woff') format('woff'),
+      url('./fonts/LM-bold.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'Latin Modern';
+    font-style: italic;
+    font-weight: bold;
+    font-display: swap;
+    src: url('./fonts/LM-bold-italic.woff2') format('woff2'),
+      url('./fonts/LM-bold-italic.woff') format('woff'),
+      url('./fonts/LM-bold-italic.ttf') format('truetype');
+  }
+
+  @font-face {
+    font-family: "Computer Modern";
+    src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunss.otf');
+  }
+  @font-face {
+    font-family: "Computer Modern";
+    src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunsx.otf');
+    font-weight: bold;
+  }
+  @font-face {
+    font-family: "Computer Modern";
+    src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunsi.otf');
+    font-style: italic, oblique;
+  }
+  @font-face {
+    font-family: "Computer Modern";
+    src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunbxo.otf');
+    font-weight: bold;
+    font-style: italic, oblique;
+  }
+
+  /* Box sizing rules */
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  :root {
+    --body-color: hsl(0, 5%, 10%);
+    --body-bg-color: hsl(210, 20%, 98%);
+    --link-visited: hsl(0, 83%, 43%);
+    --link-focus-outline: hsl(220, 90%, 52%);
+    --pre-bg-color: hsl(210, 28%, 93%);
+    --kbd-bg-color: hsl(210, 5%, 100%);
+    --kbd-border-color: hsl(210, 5%, 70%);
+    --table-border-color: black;
+    --sidenote-target-border-color: hsl(55, 55%, 70%);
+    --footnotes-border-color: hsl(0, 0%, 39%);
+  } 
+  .latex-dark {
+    --body-color: hsl(0, 0%, 86%);
+    --body-bg-color: hsl(0, 0%, 16%);
+    --link-visited: hsl(196 80% 77%);
+    --link-focus-outline: hsl(215, 63%, 73%);
+    --pre-bg-color: hsl(0, 1%, 25%);
+    --kbd-bg-color: hsl(0, 0%, 16%);
+    --kbd-border-color: hsl(210, 5%, 70%);
+    --table-border-color: white;
+    --sidenote-target-border-color: hsl(0, 0%, 59%);
+    --footnotes-border-color: hsl(0, 0%, 59%);
+    --proof-symbol-filter: invert(80%);
+  }
+  
+  @media (prefers-color-scheme: dark) {
+     .latex-dark-auto {
+      --body-color: hsl(0, 0%, 86%);
+      --body-bg-color: hsl(0, 0%, 16%);
+      --link-visited: hsl(196 80% 77%);
+      --link-focus-outline: hsl(215, 63%, 73%);
+      --pre-bg-color: hsl(0, 1%, 25%);
+      --kbd-bg-color: hsl(0, 0%, 16%);
+      --kbd-border-color: hsl(210, 5%, 70%);
+      --table-border-color: white;
+      --sidenote-target-border-color: hsl(0, 0%, 59%);
+      --footnotes-border-color: hsl(0, 0%, 59%);
+      --proof-symbol-filter: invert(80%);
+    }
+  } 
+    
+  /* Remove default margin */
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    p,
+    ul[class],
+    ol[class],
+    li,
+    figure,
+    figcaption,
+    dl,
+    dd {
+      margin: 0;
+    }
+
+
+      /* A elements that don't have a class get default styles */
+  a:not([class]) {
+    text-decoration-skip-ink: auto;
+  }
+  
+  /* Make links red */
+  
+  a:focus {
+    outline-offset: 2px;
+    outline: 2px solid var(--link-focus-outline);
+  }
+
+
+
+  /* No decoration for links inside widgets or navigation */
+  
+  .grid a {
+    text-decoration: none;
+    color: var(--body-color);
+  }
+
+
+
+  .pagination a{
+    text-decoration: none;
+    padding: 0.5rem;
+  }
+
+    /* Make default font-size 1rem and add smooth scrolling to anchors */
+  html {
+    font-size: 1rem;
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    html {
+      scroll-behavior: smooth;
+    }
+  }
+
+
+
+
+  /* First navigator */
+
+  header {
+    background-color: rgba(22, 21, 21, 0.95);
+    text-align: center;
+    position: absolute;
+    z-index: 999;
+    width: 100%;
+    padding: 1rem 0 1rem 2rem;
+  }
+
+  header a, header a:link, header a:visited{
+    color: white;
+    /* color: var(--link-visited); */
+    font-weight: bold;
+  }
+
+  header ul {
+    color: white;
+    font-weight: bold;
+    /* color: var(--link-visited); */
+    font-variant-caps: small-caps;
+  }
+
+  header ul ul {
+    padding-left: 3rem;
+  }
+
+  
+  
+  /* changed this from the tutorial video to
+     allow it to gain focus, making it tabbable */
+  .nav-toggle {
+    position: absolute !important;
+    top: -9999px !important;
+    left: -9999px !important;
+  }
+  
+  .nav-toggle:focus ~ .nav-toggle-label {
+    outline: 3px solid rgba(lightblue, .75);
+  }
+  
+  .nav-toggle-label {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    margin-left: 1em;
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-toggle-label span,
+  .nav-toggle-label span::before,
+  .nav-toggle-label span::after {
+    display: block;
+    background: white;
+    height: 2px;
+    width: 2em;
+    border-radius: 2px;
+    position: relative;
+  }
+  
+  .nav-toggle-label span::before,
+  .nav-toggle-label span::after {
+    content: '';
+    position: absolute;
+  }
+  
+  .nav-toggle-label span::before {
+    bottom: 7px;
+  }
+  
+  .nav-toggle-label span::after {
+    top: 7px;
+  }
+  
+  nav {
+    position: absolute;
+    padding-top: 0;
+    text-align: left;
+    top: 100%;
+    left: 0;
+    background-color: rgba(22, 21, 21, 0.95);
+    width: 100%;
+    transform: scale(1, 0);
+    transform-origin: top;
+    transition: transform 400ms ease-in-out;
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    padding-left: 2rem;
+    list-style: none;
+  }
+  
+  nav li {
+    padding-bottom: 1em;
+    padding-left: 1em;
+  }
+  
+  nav a{
+    text-decoration: none;
+    opacity: 50;
+    transition: opacity 150ms ease-in-out;
+  }
+
+
+  
+  nav a:hover {
+    color: #fa0707;
+  }
+  
+  .nav-toggle:checked ~ nav {
+    transform: scale(1,1);
+  }
+  
+  .nav-toggle:checked ~ nav a {
+    opacity: 1;
+    transition: opacity 250ms ease-in-out 250ms;
+  }
+
+
+
+
+  h1 {
+    margin-top: 4rem;
+  }
+
+
+  
+  /* Second navigator: includes all website labels */
+
+
+  .nav2 {
+    overflow-x: scroll;
+  
+
+  }
+
+  /* scrollbar width */
+  .nav2::-webkit-scrollbar {
+    height: 5px;
+  }
+
+  /* scrollbar Track */
+  .nav2::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+  
+  /* scrollbar Handle */
+  .nav2::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 3px; 
+  }
+
+  /* scrollbar Handle on hover */
+  .nav2::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+  
+
+  .nav2 ul{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+  }
+
+  .nav2 ul li{
+    display: inline-block;
+    margin-right: 1rem;
+    text-align: center;
+    font-size: 15px;
+    font-variant-caps: small-caps;
+    font-weight: bold;
+    line-height: normal;
+    white-space: nowrap; 
+  }
+  .nav2 a {
+    text-decoration: none;
+    color: var(--body-color);
+  }
+
+  .nav2 a::before{
+      content: '';
+      display: block;
+      height: 3px;
+      background: rgba(0, 0, 0, 0.596);
+      top: -1em;
+      left: 0;
+      right: 0;
+      transform: scale(0, 1);
+      transition: transform ease-in-out 250ms;
+    }
+
+  .nav2 a:hover{
+    color: rgba(0, 0, 0, 0.596);
+  }
+
+  .nav2 a:hover::before{
+    transform: scale(1,1);
+  }
+  
+
+
+  /* Body */
+
+  
+  body {
+    font-family: 'Latin Modern', Georgia, Cambria, 'Times New Roman', Times, serif;
+    line-height: 1.8;
+    color: var(--body-color);
+    background-color: var(--body-bg-color);
+    
+      
+
+  }
+
+  main{
+    max-width: 90%;
+    min-height: 100vh;
+    overflow-x: hidden;
+    margin: 0 auto;
+    padding: 2rem 1.25rem;
+
+    counter-reset: theorem definition sidenote-counter;
+  
+
+  
+    text-rendering: optimizeLegibility;
+
+    overflow: auto;
+
+  }
+
+  /* Heading typography: default from CSS */
+
+  h1 {
+    font-size: 2.5rem;
+    line-height: 3.25rem;
+    margin-bottom: 1.625rem;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 1.7rem;
+    line-height: 2rem;
+    margin-top: 3rem;
+  }
+  
+  h3 {
+    font-size: 1.4rem;
+    margin-top: 2.5rem;
+
+
+  }
+  
+  h4 {
+    font-size: 1.2rem;
+    margin-top: 2rem;
+  }
+  
+  h5 {
+    font-size: 1rem;
+    margin-top: 1.8rem;
+  }
+  
+  h6 {
+    font-size: 1rem;
+    font-style: italic;
+    font-weight: normal;
+    margin-top: 2.5rem;
+  }
+  
+  h3,
+  h4,
+  h5,
+  h6 {
+    line-height: 1.625rem;
+  }
+  
+  h1 + h2 {
+    margin-top: 1.625rem;
+  }
+  
+  h2 + h3,
+  h3 + h4,
+  h4 + h5 {
+    margin-top: 0.8rem;
+  }
+  
+  h5 + h6 {
+    margin-top: -0.8rem;
+  }
+  
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin-bottom: 0.8rem;
+  }
+
+  /* For dashboard creation */
+
+  .grid {
+    width: auto;
+    margin-left: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    gap: 1rem;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }  
+
+  /* grid-item stlying, width changes depending on the viewport size see media query */
+
+  .grid-item {
+    flex-basis: calc(33.33% - 10px);
+    margin-bottom: 10px;
+    width: 24%;   
+    box-sizing: border-box;
+    min-height: auto;
+    padding: 1rem;
+		background-color: #F3F4F5;
+    border: 1px solid #DCDEE2;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;  
+    align-items: center;  
+  }
+
+
+  .grid-item:hover {
+    border-color: rgb(58, 56, 56);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+      }
+
+  .grid-item h2, h3, h4{
+    text-align: center;
+    margin: 0.5rem 0rem 0.5rem 0rem; 
+  }
+
+  .grid-item p {
+    text-align: justify;
+  }
+
+  .grid-item p.author {
+    text-align: center;
+  }  
+
+  .grid-item img {
+    min-width: 200px;
+		max-width: 100%;
+    align-items: center;
+  }
+
+
+  /* inside grid-items label style */
+
+  .inside-flex{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .inside-flex p{
+    font-size: 14px;
+    margin-top: -10px;
+  }
+
+  .tag{
+    margin-left: -11px;
+    margin-top: -13px;
+  }
+
+  .tag object{
+    font-variant-caps: small-caps;
+    background-color: #fffffd;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    border-radius: 6px;
+    /* box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2); */
+    transition: 0.3s; 
+  }
+
+  .tag object a{
+    color: #777373;
+  }
+
+  .tag object:hover{
+    border-color: rgb(80, 79, 79);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+
+  .source{
+    position: absolute;
+    font-size: small;
+    margin-top: 10px;
+    bottom: -3px;
+    right: 10px;
+
+  }
+
+    /* pagination style */
+
+  .pagination {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+
+
+
+
+
+
+
+  /* Make images easier to work with */
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* Center align author name, use small caps and add vertical spacing  */
+  .author {
+    margin: 0.85rem 0;
+    font-variant-caps: small-caps;
+    text-align: center;
+    line-height: normal;
+  }
+
+  p {
+    text-align: center;
+    hyphens: auto;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    margin-top: 1rem;
+  }
+
+  /* main logo */
+
+  .logo {
+    width: 125px
+  }
+
+
+    /* Media query */
+
+    @media screen and (max-width: 1350px) {
+      .grid-item {
+        width: 32.5%;
+      }
+      
+      .nav2 ul li {
+        font-size: 15px;
+      }
+  
+    }
+  
+    @media screen and (max-width: 970px) {
+      .grid-item {
+        width: 49%;
+      }
+  
+      
+    }
+  
+    @media screen and (max-width: 700px) {
+      .grid-item {
+        width: 100%;
+      }
+
+      .nav2 {
+        display: none;
+      }
+  
+      .after-nav2 {
+        display: none;
+      }
+
+      h1 {
+        margin-top: 2.5rem;
+      }
+
+    }
+  
+
+
+      /* header nav {
+        display: none;
+      }
+
+      .menu-bar {
+        display: block;
+      }
+
+      .nav2 {
+        display: none;
+      }
+
+      .after-nav2 {
+        display: none;
+      }
+
+      .toggle-menu:checked nav ul {
+        display: block
+      } */
+
+      @media screen and (min-width: 700px) {
+        .nav-toggle-label {
+          display: none;
+        }
+      
+        header {
+          background: var(--background);
+          display: flex;
+          justify-content: space-between;
+          width: 100%;
+          padding: 2rem 2rem 1rem 3rem;
+        }
+
+        header a, header a:link, header a:visited {
+          color: var(--link-visited);
+        }
+
+        header a:hover{
+          color: #fa0707;
+        }
+        
+        nav {
+          position: relative;
+          text-align: left;
+          margin-top: 0;
+          transition: none;
+          transform: scale(1,1);
+          background: none;
+          top: initial;
+          left: initial;
+          background: var(--background);
+          display: flex;
+          justify-content: flex-end;
+          align-items: right;
+        }
+
+        
+        nav li {
+          display: inline-block;
+          margin-left: 1em;
+          margin-bottom: 0;
+        }
+        
+        nav a {
+          opacity: 1;
+          position: relative;
+          text-transform: initial;
+        }
+        
+        nav a::before {
+          content: '';
+          display: block;
+          height: 5px;
+          background: black;
+          position: absolute;
+          top: -.75em;
+          left: 0;
+          right: 0;
+          transform: scale(0, 1);
+          transition: transform ease-in-out 250ms;
+        }
+        
+        nav a:hover::before {
+          transform: scale(1,1);
+        }
+
+        .hide {
+          display: none;
+        }
+      }
+  
+
+
+ 

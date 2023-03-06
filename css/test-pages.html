@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Single-Page Application</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+
+      .grid {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        max-width: 800px;
+      }
+
+      .grid-item {
+        background-color: #f2f2f2;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        margin: 10px;
+        overflow: hidden;
+        position: relative;
+      }
+
+      .grid-item img {
+        display: block;
+        width: 100%;
+        height: auto;
+      }
+
+      .pagination {
+        display: flex;
+        justify-content: center;
+        margin-top: 1rem;
+      }
+
+      .pagination a {
+        color: #333;
+        text-decoration: none;
+        padding: 0.5rem;
+      }
+
+      .pagination a.active {
+        color: #fff;
+        background-color: #333;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="grid" id="grid">
+      <div class="grid-item"><img src="https://picsum.photos/id/1015/200/300" /></div>
+      <div class="grid-item"><img src="https://picsum.photos/id/1016/200/300" /></div>
+      <div class="grid-item"><img src="https://picsum.photos/id/1018/200/300" /></div>
+      <div class="grid-item"><img src="https://picsum.photos/id/1020/200/300" /></div>
+      <div class="grid-item"><img src="https://picsum.photos/id/1022/200/300" /></div>
+      <div class="grid-item"><img src="https://picsum.photos/id/1023/200/300" /></div>
+      <div class="grid-item"><img src="https://picsum.photos/id/1025/200/300" /></div>
+      <div class="grid-item"><img src="https://picsum.photos/id/1029/200/300" /></div>
+    </div>
+
+    <div class="pagination" id="pagination"></div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js"></script>
+    <script>
+      const itemsPerPage = 4;
+      const grid = document.getElementById("grid");
+      const pagination = document.getElementById("pagination");
+      let currentPage = 1;
+      const totalItems = grid.childElementCount;
+
+      imagesLoaded(grid, () => {
+        const masonry = new Masonry(grid, {
+          itemSelector: ".grid-item",
+          columnWidth: ".grid-item",
+          gutter: 10,
+        });
+
+        function showPage(page) {
+          const startIndex = (page - 1) * itemsPerPage;
+          const endIndex = startIndex + itemsPerPage;
+
+          for (let i = 0; i < totalItems; i++) {
+            if (i >= startIndex && i < endIndex) {
+          grid.children[i].style.display = "block";
+        } else {
+          grid.children[i].style.display = "none";
+        }
+      }
+
+      const totalPages = Math.ceil(totalItems / itemsPerPage);
+      pagination.innerHTML = "";
+      for (let i = 1; i <= totalPages; i++) {
+        const link = document.createElement("a");
+        link.href = "#";
+        link.textContent = i;
+        if (i === currentPage) {
+          link.classList.add("active");
+        }
+        link.addEventListener("click", (event) => {
+          event.preventDefault();
+          currentPage = i;
+          showPage(currentPage);
+        });
+        pagination.appendChild(link);
+      }
+
+      masonry.layout();
+    }
+
+    showPage(currentPage);
+  });
+</script>
+</body>
+</html>
+

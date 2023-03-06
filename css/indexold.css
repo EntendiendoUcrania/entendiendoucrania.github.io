@@ -1,0 +1,403 @@
+@font-face {
+    font-family: 'Latin Modern';
+    font-style: normal;
+    font-weight: normal;
+    font-display: swap;
+    src: url('./fonts/LM-regular.woff2') format('woff2'),
+      url('./fonts/LM-regular.woff') format('woff'),
+      url('./fonts/LM-regular.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'Latin Modern';
+    font-style: italic;
+    font-weight: normal;
+    font-display: swap;
+    src: url('./fonts/LM-italic.woff2') format('woff2'),
+      url('./fonts/LM-italic.woff') format('woff'),
+      url('./fonts/LM-italic.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'Latin Modern';
+    font-style: normal;
+    font-weight: bold;
+    font-display: swap;
+    src: url('./fonts/LM-bold.woff2') format('woff2'),
+      url('./fonts/LM-bold.woff') format('woff'),
+      url('./fonts/LM-bold.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'Latin Modern';
+    font-style: italic;
+    font-weight: bold;
+    font-display: swap;
+    src: url('./fonts/LM-bold-italic.woff2') format('woff2'),
+      url('./fonts/LM-bold-italic.woff') format('woff'),
+      url('./fonts/LM-bold-italic.ttf') format('truetype');
+  }
+
+  @font-face {
+    font-family: "Computer Modern";
+    src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunss.otf');
+  }
+  @font-face {
+    font-family: "Computer Modern";
+    src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunsx.otf');
+    font-weight: bold;
+  }
+  @font-face {
+    font-family: "Computer Modern";
+    src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunsi.otf');
+    font-style: italic, oblique;
+  }
+  @font-face {
+    font-family: "Computer Modern";
+    src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunbxo.otf');
+    font-weight: bold;
+    font-style: italic, oblique;
+  }
+
+  /* Box sizing rules */
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  :root {
+    --body-color: hsl(0, 5%, 10%);
+    --body-bg-color: hsl(210, 20%, 98%);
+    --link-visited: hsl(0, 100%, 33%);
+    --link-focus-outline: hsl(220, 90%, 52%);
+    --pre-bg-color: hsl(210, 28%, 93%);
+    --kbd-bg-color: hsl(210, 5%, 100%);
+    --kbd-border-color: hsl(210, 5%, 70%);
+    --table-border-color: black;
+    --sidenote-target-border-color: hsl(55, 55%, 70%);
+    --footnotes-border-color: hsl(0, 0%, 39%);
+  } 
+  .latex-dark {
+    --body-color: hsl(0, 0%, 86%);
+    --body-bg-color: hsl(0, 0%, 16%);
+    --link-visited: hsl(196 80% 77%);
+    --link-focus-outline: hsl(215, 63%, 73%);
+    --pre-bg-color: hsl(0, 1%, 25%);
+    --kbd-bg-color: hsl(0, 0%, 16%);
+    --kbd-border-color: hsl(210, 5%, 70%);
+    --table-border-color: white;
+    --sidenote-target-border-color: hsl(0, 0%, 59%);
+    --footnotes-border-color: hsl(0, 0%, 59%);
+    --proof-symbol-filter: invert(80%);
+  }
+  
+  @media (prefers-color-scheme: dark) {
+     .latex-dark-auto {
+      --body-color: hsl(0, 0%, 86%);
+      --body-bg-color: hsl(0, 0%, 16%);
+      --link-visited: hsl(196 80% 77%);
+      --link-focus-outline: hsl(215, 63%, 73%);
+      --pre-bg-color: hsl(0, 1%, 25%);
+      --kbd-bg-color: hsl(0, 0%, 16%);
+      --kbd-border-color: hsl(210, 5%, 70%);
+      --table-border-color: white;
+      --sidenote-target-border-color: hsl(0, 0%, 59%);
+      --footnotes-border-color: hsl(0, 0%, 59%);
+      --proof-symbol-filter: invert(80%);
+    }
+  } 
+    
+  /* Remove default margin */
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    p,
+    ul[class],
+    ol[class],
+    li,
+    figure,
+    figcaption,
+    dl,
+    dd {
+      margin: 0;
+    }
+
+    /* Make default font-size 1rem and add smooth scrolling to anchors */
+  html {
+    font-size: 1rem;
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    html {
+      scroll-behavior: smooth;
+    }
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  nav ul {
+      list-style: none;
+      padding: 0;
+  }
+
+  nav ul li{
+    display: inline-block;
+    margin-right: 2rem;
+  }
+
+  nav ul li a {
+    text-decoration: none;
+    color: #272002;
+    font-weight: 900
+  }
+  
+  body {
+    font-family: 'Latin Modern', Georgia, Cambria, 'Times New Roman', Times, serif;
+    line-height: 1.8;
+  
+    max-width: 90%;
+    min-height: 100vh;
+    overflow-x: hidden;
+    margin: 0 auto;
+    padding: 2rem 1.25rem;
+  
+    counter-reset: theorem definition sidenote-counter;
+  
+    color: var(--body-color);
+    background-color: var(--body-bg-color);
+  
+    text-rendering: optimizeLegibility;
+
+    overflow: auto;
+  }
+
+  /* Heading typography */
+  h1 {
+    font-size: 2.5rem;
+    line-height: 3.25rem;
+    margin-bottom: 1.625rem;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 1.7rem;
+    line-height: 2rem;
+    margin-top: 3rem;
+  }
+  
+  h3 {
+    font-size: 1.4rem;
+    margin-top: 2.5rem;
+
+
+  }
+  
+  h4 {
+    font-size: 1.2rem;
+    margin-top: 2rem;
+  }
+  
+  h5 {
+    font-size: 1rem;
+    margin-top: 1.8rem;
+  }
+  
+  h6 {
+    font-size: 1rem;
+    font-style: italic;
+    font-weight: normal;
+    margin-top: 2.5rem;
+  }
+  
+  h3,
+  h4,
+  h5,
+  h6 {
+    line-height: 1.625rem;
+  }
+  
+  h1 + h2 {
+    margin-top: 1.625rem;
+  }
+  
+  h2 + h3,
+  h3 + h4,
+  h4 + h5 {
+    margin-top: 0.8rem;
+  }
+  
+  h5 + h6 {
+    margin-top: -0.8rem;
+  }
+  
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin-bottom: 0.8rem;
+  }
+
+  /* For dashboard creation */
+
+  .wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+    /* grid-auto-rows: 20px; */
+    /* grid-auto-flow: dense; */
+    gap: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+
+  .grid {
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+      }  
+
+  .wrapper-article {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(380px, 380px));
+    /* grid-template-rows: masonry; */
+    /* display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start; */
+    gap: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    
+  }
+
+  .widget {
+    box-sizing: border-box;
+    min-width: 330px;
+    min-height: auto;
+		background-color: #F3F4F5;
+    padding: 1rem;
+    border: 1px solid #DCDEE2;
+    border-radius: 8px;    
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-between;   */
+  }
+
+  .grid-item {
+    flex-basis: calc(33.33% - 10px);
+    margin-bottom: 20px;
+    min-width: 330px;
+    max-width: 380px;
+    box-sizing: border-box;
+    min-height: auto;
+    padding: 1rem;
+		background-color: #F3F4F5;
+    border: 1px solid #DCDEE2;
+    border-radius: 8px;    
+  }
+
+  .grid-item:hover {
+    border-color: rgb(58, 56, 56);
+      }
+
+  .grid-item h2{
+    text-align: center;
+    height: 4.5rem;
+    margin: 0.5rem 0rem 0.5rem 0rem;
+        
+  }
+
+  .grid-item {
+    min-width: 250px;
+		max-width: 100%;
+    align-items: center;
+  }
+
+  .widget-article {
+    box-sizing: border-box;
+    width: 380px;
+    min-height: 500px;
+		background-color: #F3F4F5;
+    padding: 1rem;
+    border: 1px solid #DCDEE2;
+    border-radius: 8px;        
+  }
+
+  .widget-article:hover {
+    border-color: rgb(58, 56, 56);
+      }
+
+  .widget-article h2, h3, h4 {
+    text-align: center;
+    margin: 0.5rem 0rem 0.5rem 0rem;
+        
+  }
+
+  .widget img {
+    min-width: 250px;
+		max-width: 100%;
+    align-items: center;
+  }
+
+  /* A elements that don't have a class get default styles */
+  a:not([class]) {
+    text-decoration-skip-ink: auto;
+  }
+  
+  /* Make links red */
+  a,
+  a:visited {
+    color: var(--link-visited);
+  }
+  
+  a:focus {
+    outline-offset: 2px;
+    outline: 2px solid var(--link-focus-outline);
+  }
+
+  /* No decoration for links inside widgets */
+  
+  .wrapper a {
+    text-decoration: none;
+    color: var(--body-color);
+  }
+
+  .wrapper-article a {
+    text-decoration: none;
+    color: var(--body-color);
+  }
+
+  /* Make images easier to work with */
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* Center align author name, use small caps and add vertical spacing  */
+  .author {
+    margin: 0.85rem 0;
+    font-variant-caps: small-caps;
+    text-align: center;
+  }
+
+  p {
+    text-align: center;
+    hyphens: auto;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    margin-top: 1rem;
+  }
+
+ 

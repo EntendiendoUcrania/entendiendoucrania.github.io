@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Masonry Grid Example</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: sans-serif;
+    }
+
+    .grid {
+      width: 100vw;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    .grid-item {
+      flex-basis: calc(33.33% - 10px);
+      margin-bottom: 20px;
+    }
+
+    .grid-item img {
+      width: 100%;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <div class="grid">
+    <div class="grid-item">
+      <img src="https://picsum.photos/id/1018/400/400">
+    </div>
+    <div class="grid-item">
+      <img src="https://picsum.photos/id/1025/400/400">
+    </div>
+    <div class="grid-item">
+      <img src="https://picsum.photos/id/103/400/400">
+    </div>
+    <div class="grid-item">
+      <img src="https://picsum.photos/id/1043/400/400">
+    </div>
+    <div class="grid-item">
+      <img src="https://picsum.photos/id/1050/400/400">
+    </div>
+    <div class="grid-item">
+      <img src="https://picsum.photos/id/1059/400/400">
+    </div>
+    <div class="grid-item">
+      <img src="https://picsum.photos/id/1062/400/400">
+    </div>
+    <div class="grid-item">
+      <img src="https://picsum.photos/id/1069/400/400">
+    </div>
+    <div class="grid-item">
+      <img src="https://picsum.photos/id/1072/400/400">
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js"></script>
+  <script>
+    var grid = document.querySelector('.grid');
+    var msnry;
+
+    imagesLoaded( grid, function() {
+      msnry = new Masonry( grid, {
+        itemSelector: '.grid-item',
+        columnWidth: '.grid-item',
+        gutter: 10
+      });
+    });
+
+    window.addEventListener('resize', function() {
+      msnry.layout();
+    });
+  </script>
+</body>
+</html>

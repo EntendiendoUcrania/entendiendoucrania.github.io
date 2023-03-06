@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Ucrania y anarquismo</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="Juan Miguel González Sánchez">
+
+    <link rel="stylesheet" href="\css/index.css">
+    </head>
+</head>
+<body>
+    <header>
+        <a href="index.html"><img class="logo" src="/images/logos/" alt="Logo"></a>
+
+        <input type="checkbox" id="nav-toggle" class="nav-toggle">
+
+        <nav>
+            <ul>
+                <li class="hide">Temas</li>
+                <ul class="hide">
+                    <li><a href="derecho_resistir.html">Derecho a Resistir</a></li>
+                    <li><a href="historia_general.html">Historia</a></li>
+                    <li><a href="maidan.html">Maidán y Guerra en 2014</a></li>
+                    <li><a href="izquierda.html">Izquierda</a></li>
+                    <li><a href="feminismo.html">Feminismo</a></li>
+                    <li><a href="movimiento_lgtb.html">Movimiento LGTB+</a></li>
+                    <li><a href="anarquismo.html">Anarquismo</a></li>
+                    <li><a href="imperialismo.html">Imperialismo Ruso</a></li>
+                </ul>
+                <li><a href="dona.html">Dona a Ucrania</a></li>
+                <li><a href="porque.html">¿Por qué esta página?</a></li>
+                <li><a href="contact.html">Contacto</a></li>
+            </ul>
+        </nav>
+        
+        <label for="nav-toggle" class="nav-toggle-label">
+            <span></span>
+          </label>
+
+    </header>
+    
+    <main>
+
+        <h1>Ucrania y anarquismo</h1>
+        <hr>
+
+        <div class="nav2">
+            <ul>
+                <li><a href="derecho_resistir.html">Derecho a Resistir</a></li>
+                <li><a href="historia_general.html">Historia</a></li>
+                <li><a href="maidan.html">Maidán y Guerra en 2014</a></li>
+                <li><a href="izquierda.html">Izquierda</a></li>
+                <li><a href="feminismo.html">Feminismo</a></li>
+                <li><a href="movimiento_lgtb.html">Movimiento LGTB+</a></li>
+                <li><a href="anarquismo.html">Anarquismo</a></li>
+                <li><a href="imperialismo.html">Imperialismo Ruso</a></li>
+            </ul>
+        </div>
+
+        <hr class="after-nav2">
+
+
+        <div class="grid">
+
+            <a href="http://alasbarricadas.org/noticias/node/49922">
+                <div class="grid-item">
+                    <div class="inside-flex">
+                        <div class="tag">
+                            <!-- <object><a href="anarquismo.html">Anarquismo</a></object>
+                            <object><a href="maidan.html">Guerra en 2014</a></object> -->
+                        </div>
+                        <p>04/10/22</p>
+                    </div>
+                    <h4>Los “izquierdistas” fuera de Ucrania están acostumbrados a escuchar sólo a la gente de Moscú</h4>
+                    <p class="author">Entrevista con anarcosindicalistas del Este de Ucrania</p> 
+                    <p> A lo largo de la existencia del estado ucraniano independiente, no ha habido un solo preso anarquista político aquí. Al mismo tiempo, muchas docenas de nuestros camaradas en Rusia terminaron en prisiones rusas, culpables únicamente por sus convicciones anarquistas. Entonces, éramos muy conscientes de lo que Putin hizo por las ideas libertarias.</p>
+                    <div class="source"><p>lee en alasbarricadas.org</p></div>
+                </div>
+            </a>   
+
+
+            <a href="https://es.crimethinc.com/2022/02/15/lxs-anarquistas-y-la-guerra-perspectivas-antiautoritarias-en-ucrania">
+                <div class="grid-item">
+                    <div class="inside-flex">
+                        <div class="tag">
+                            <!-- <object><a href="maidan.html">Maidán y Guerra en 2014</a></object>
+                            <object><a href="anarquismo.html">Anarquismo</a></object> -->
+                        </div>
+                        <p>15/02/22</p>
+                    </div>
+                    <h3>Lxs anarquistxs y la guerra: perspectivas antiautoritarias en Ucrania</h3>
+                    <p class="author">Activistas antiautoritarixs en activo de Ucrania</p>
+                    <img src="\images/index/anarchism.jpg" alt="Lxs anarquistxs y la guerra: perspectivas antiautoritarias en Ucrania">
+                    <p>El conflicto armado con Rusia comenzó hace ocho años, en la noche del 26 al 27 de febrero de 2014, cuando el edificio del Parlamento de Crimea y el Consejo de Ministros fueron tomados por hombres armados desconocidos. Utilizaron armas, uniformes y equipos rusos, pero no tenían los símbolos del ejército ruso.</p>
+                    <div class="source"><p>lee en crimethinc.com</p></div>
+                </div>
+            </a>
+
+
+
+
+
+
+
+
+        </div>
+
+        
+
+
+
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js"></script>
+        <script>
+        var grid = document.querySelector('.grid');
+        var msnry;
+    
+        imagesLoaded( grid, function() {
+          msnry = new Masonry( grid, {
+            itemSelector: '.grid-item',
+            columnWidth: '.grid-item',
+            gutter: 10
+          });
+        });
+    
+        window.addEventListener('resize', function() {
+          msnry.layout();
+        });
+        </script>
+
+    </main>
+
+</body>
+</html>

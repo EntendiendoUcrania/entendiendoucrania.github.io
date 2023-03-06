@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Movimiento LGTB+</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="Juan Miguel González Sánchez">
+
+    <link rel="stylesheet" href="\css/index.css">
+    </head>
+</head>
+<body>
+
+    <header>
+        <a href="index.html"><img class="logo" src="/images/logos/" alt="Logo"></a>
+
+        <input type="checkbox" id="nav-toggle" class="nav-toggle">
+
+        <nav>
+            <ul>
+                <li class="hide">Temas</li>
+                <ul class="hide">
+                    <li><a href="derecho_resistir.html">Derecho a Resistir</a></li>
+                    <li><a href="historia_general.html">Historia</a></li>
+                    <li><a href="maidan.html">Maidán y Guerra en 2014</a></li>
+                    <li><a href="izquierda.html">Izquierda</a></li>
+                    <li><a href="feminismo.html">Feminismo</a></li>
+                    <li><a href="movimiento_lgtb.html">Movimiento LGTB+</a></li>
+                    <li><a href="anarquismo.html">Anarquismo</a></li>
+                    <li><a href="imperialismo.html">Imperialismo Ruso</a></li>
+                </ul>
+                <li><a href="dona.html">Dona a Ucrania</a></li>
+                <li><a href="porque.html">¿Por qué esta página?</a></li>
+                <li><a href="contact.html">Contacto</a></li>
+            </ul>
+        </nav>
+        
+        <label for="nav-toggle" class="nav-toggle-label">
+            <span></span>
+          </label>
+
+    </header>
+    
+    <main>
+
+        <h1>Movimiento LGTB+ en Ucrania</h1>
+        <hr>
+
+        <div class="nav2">
+            <ul>
+                <li><a href="derecho_resistir.html">Derecho a Resistir</a></li>
+                <li><a href="historia_general.html">Historia</a></li>
+                <li><a href="maidan.html">Maidán y Guerra en 2014</a></li>
+                <li><a href="izquierda.html">Izquierda</a></li>
+                <li><a href="feminismo.html">Feminismo</a></li>
+                <li><a href="movimiento_lgtb.html">Movimiento LGTB+</a></li>
+                <li><a href="anarquismo.html">Anarquismo</a></li>
+                <li><a href="imperialismo.html">Imperialismo Ruso</a></li>
+            </ul>
+        </div>
+
+        <hr class="after-nav2">
+
+
+        <div class="grid">
+
+
+
+
+
+
+
+        </div>
+
+        
+
+
+
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js"></script>
+        <script>
+        var grid = document.querySelector('.grid');
+        var msnry;
+    
+        imagesLoaded( grid, function() {
+          msnry = new Masonry( grid, {
+            itemSelector: '.grid-item',
+            columnWidth: '.grid-item',
+            gutter: 10
+          });
+        });
+    
+        window.addEventListener('resize', function() {
+          msnry.layout();
+        });
+        </script>
+
+    </main>
+
+</body>
+</html>
