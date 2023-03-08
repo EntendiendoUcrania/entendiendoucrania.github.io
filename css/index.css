@@ -156,7 +156,7 @@
 
     /* Make default font-size 1rem and add smooth scrolling to anchors */
   html {
-    font-size: 1rem;
+    font-size: 1.04rem;
   }
   @media (prefers-reduced-motion: no-preference) {
     html {
@@ -381,7 +381,7 @@
 
   
   body {
-    font-family: 'Latin Modern', Georgia, Cambria, 'Times New Roman', Times, serif;
+    font-family: 'Computer Modern', 'Latin Modern', Georgia, Cambria, 'Times New Roman', Times, serif;
     line-height: 1.8;
     color: var(--body-color);
     background-color: var(--body-bg-color);
