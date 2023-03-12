@@ -407,6 +407,10 @@
 
   }
 
+  .description {
+    text-align: justify;
+  }
+
   /* Heading typography: default from CSS */
 
   h1 {
