@@ -555,11 +555,10 @@
 
   .tag object{
     font-variant-caps: small-caps;
-    background-color: #fffffd;
+    background-color: rgba(224, 211, 211, 0.24);
     padding-left: 0.5rem;
     padding-right: 0.5rem;
     border-radius: 6px;
-    /* box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2); */
     transition: 0.3s; 
   }
 
