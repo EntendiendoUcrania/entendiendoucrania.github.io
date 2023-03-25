@@ -388,7 +388,7 @@
 
   }
 
-  .description {
+  .description, .short-description {
     text-align: justify;
   }
 
@@ -402,14 +402,14 @@
   }
   
   h2 {
-    font-size: 1.7rem;
-    line-height: 2rem;
-    margin-top: 3rem;
+    font-size: 1.3rem;
+    margin-top: 2.5rem;
+    line-height: 1.6rem;
   }
   
   h3 {
-    font-size: 1.4rem;
-    margin-top: 2.5rem;
+    font-size: 1.2rem;
+    margin-top: 2rem;
 
 
   }
@@ -655,7 +655,13 @@
         max-width: 100%;
       }
 
+      .description {
+        display: none;
+      }
+
     }
+
+
 
 
 
@@ -747,6 +753,10 @@
         }
 
         .hide {
+          display: none;
+        }
+
+        .short-description {
           display: none;
         }
       }
