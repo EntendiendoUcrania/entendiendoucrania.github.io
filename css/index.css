@@ -511,8 +511,7 @@
   }  
 
   .grid-item img {
-    min-width: 200px;
-		max-width: 100%;
+    width: 400px;
     align-items: center;
   }
 
