@@ -105,6 +105,10 @@
       margin: 0;
     }
 
+    figure {
+      margin-top: 1rem;
+    }
+
     /* Make default font-size 1rem and add smooth scrolling to anchors */
   html {
     font-size: 1.04rem;
@@ -866,7 +870,7 @@
   }
 
   .author-block img {
-    width: 1200px
+    width: 550px
   }
 
   .author-block p {
