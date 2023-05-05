@@ -15,7 +15,6 @@ soup = BeautifulSoup(html, 'html.parser')
 # Define the metadata for the RSS feed
 feed_title = 'Entendiendo Ucrania'
 feed_link = 'https://entendiendoucrania.com/'
-feed_image_url = 'https://entendiendoucrania.com/images/logos/favicon-96x96.png'
 feed_description = 'Entendiendo Ucrania recoge artículos sobre la guerra, la sociedad y la historia de Ucrania escritos por sus protagonistas.'
 
 # Create a FeedGenerator object and set its metadata

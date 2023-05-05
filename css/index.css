@@ -151,7 +151,7 @@
   /* First navigator */
 
   header {
-    background-color: rgba(218, 217, 217, 0.95);
+    background-color: hsl(210, 20%, 98%, 0.95);
     text-align: center;
     position: absolute;
     z-index: 999;
@@ -232,7 +232,7 @@
     text-align: left;
     top: 100%;
     left: 0;
-    background-color: rgba(218, 217, 217, 0.95);
+    background-color: hsl(210, 20%, 98%, 0.95);
     width: 100%;
     transform: scale(1, 0);
     transform-origin: top;
