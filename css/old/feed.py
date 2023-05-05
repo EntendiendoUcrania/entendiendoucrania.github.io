@@ -15,6 +15,7 @@ soup = BeautifulSoup(html, 'html.parser')
 # Define the metadata for the RSS feed
 feed_title = 'Entendiendo Ucrania'
 feed_link = 'https://entendiendoucrania.com/'
+feed_image_url = 'https://entendiendoucrania.com/images/logos/favicon-96x96.png'
 feed_description = 'Entendiendo Ucrania recoge artículos sobre la guerra, la sociedad y la historia de Ucrania escritos por sus protagonistas.'
 
 # Create a FeedGenerator object and set its metadata
@@ -25,32 +26,34 @@ feed = feedgenerator.Rss201rev2Feed(
     language='es',
 )
 
+
 # Find all the posts in the HTML and loop over them
 posts = soup.find_all('div', class_='post')
 for post in posts:
     # Extract the necessary information from the post
     post_link = post.a['href']
-    post_date_str = post.find('span').text.strip()
+    post_date_str = post.find('span', class_='pubDate').text.strip()
     post_date_obj = parse(post_date_str)
     post_title = post.find('h2').text
     post_author = post.find('p', class_='author').text
 
     
-    # Find the post description
-    post_description_elem = post.find('p').find_next_sibling('p')
+# Find the post description
+    post_description_elem = post.find('span', class_='descript')
     if post_description_elem:
         post_description = post_description_elem.text
     else:
         post_description = ""
+    
 
-    # Create an entry for the post in the RSS feed
+# Create an entry for the post in the RSS feed
     feed.add_item(
         title=post_title,
         link=post_link,
         description=post_description,
         pubdate=post_date_obj,
         author=post_author,
-    )
+)
 
 # Generate the RSS feed and write it to a file
 rss_feed = feed.writeString('utf-8')
