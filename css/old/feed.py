@@ -1,3 +1,4 @@
+import os
 import datetime
 import feedgenerator
 from bs4 import BeautifulSoup
@@ -44,14 +45,36 @@ for post in posts:
         post_description = ""
     
 
+    post_image_elem = post.find('img')
+    if post_image_elem:
+        post_image_url = post_image_elem['src']
+        post_image_title = post_image_elem['alt']
+        post_image_link = post_image_elem.parent['href'] if post_image_elem.parent.name == 'a' else post_link
+        post_image_size = os.path.getsize(post_image_url)
+        post_image_type = 'image/webp'  # Change to the appropriate MIME type for the image
+        post_image_data = requests.get(post_image_url).content
+
+        # Add an enclosure for the image to the RSS item
+        feed.add_item(
+            title=post_title,
+            link=post_link,
+            description=post_description,
+            pubdate=post_date_obj,
+            author=post_author,
+            enclosure=(post_image_url, post_image_size, post_image_type, post_image_title),
+        )
+
+    else:    
+
 # Create an entry for the post in the RSS feed
-    feed.add_item(
-        title=post_title,
-        link=post_link,
-        description=post_description,
-        pubdate=post_date_obj,
-        author_name=post_author,
-)
+        feed.add_item(
+            title=post_title,
+            link=post_link,
+            description=post_description,
+            pubdate=post_date_obj,
+            author_name=post_author,
+        )
+    
 
 # Generate the RSS feed and write it to a file
 rss_feed = feed.writeString('utf-8')
