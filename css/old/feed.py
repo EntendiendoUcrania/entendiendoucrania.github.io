@@ -1,4 +1,3 @@
-import os
 import datetime
 import feedgenerator
 from bs4 import BeautifulSoup
@@ -51,7 +50,7 @@ for post in posts:
         link=post_link,
         description=post_description,
         pubdate=post_date_obj,
-        author=post_author,
+        author_name=post_author,
 )
 
 # Generate the RSS feed and write it to a file
