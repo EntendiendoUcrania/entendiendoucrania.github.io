@@ -48,20 +48,27 @@ for post in posts:
     post_image_elem = post.find('img')
     if post_image_elem:
         post_image_url = post_image_elem['src']
-        post_image_title = post_image_elem['alt']
-        post_image_link = post_image_elem.parent['href'] if post_image_elem.parent.name == 'a' else post_link
-        post_image_size = os.path.getsize(post_image_url)
-        post_image_type = 'image/webp'  # Change to the appropriate MIME type for the image
-        post_image_data = requests.get(post_image_url).content
-
-        # Add an enclosure for the image to the RSS item
+        # Download the image and save it locally
+        image_response = requests.get(post_image_url)
+        image_name = os.path.basename(post_image_url)
+        with open(image_name, 'wb') as f:
+            f.write(image_response.content)
+        
+        # Get the size of the image
+        post_image_size = os.path.getsize(image_name)
+        
+        # Add the image to the RSS feed item
         feed.add_item(
             title=post_title,
             link=post_link,
             description=post_description,
             pubdate=post_date_obj,
             author=post_author,
-            enclosure=(post_image_url, post_image_size, post_image_type, post_image_title),
+            enclosure={
+                'url': post_image_url,
+                'length': str(post_image_size),
+                'type': image_response.headers.get('Content-Type', 'image/jpeg'),
+            },
         )
 
     else:    

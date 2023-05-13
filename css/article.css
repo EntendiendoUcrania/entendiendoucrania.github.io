@@ -375,6 +375,10 @@
     margin-bottom: 0.8rem;
   }
 
+  .nomargintop {
+    margin-top: 0;
+  }
+
    /* main logo */
 
    .logo {
