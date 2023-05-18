@@ -43,44 +43,17 @@ for post in posts:
         post_description = post_description_elem.text
     else:
         post_description = ""
-    
 
-    post_image_elem = post.find('img')
-    if post_image_elem:
-        post_image_url = post_image_elem['src']
-        # Download the image and save it locally
-        image_response = requests.get(post_image_url)
-        image_name = os.path.basename(post_image_url)
-        with open(image_name, 'wb') as f:
-            f.write(image_response.content)
-        
-        # Get the size of the image
-        post_image_size = os.path.getsize(image_name)
-        
-        # Add the image to the RSS feed item
-        feed.add_item(
-            title=post_title,
-            link=post_link,
-            description=post_description,
-            pubdate=post_date_obj,
-            author=post_author,
-            enclosure={
-                'url': post_image_url,
-                'length': str(post_image_size),
-                'type': image_response.headers.get('Content-Type', 'image/jpeg'),
-            },
-        )
-
-    else:    
+   
 
 # Create an entry for the post in the RSS feed
-        feed.add_item(
-            title=post_title,
-            link=post_link,
-            description=post_description,
-            pubdate=post_date_obj,
-            author_name=post_author,
-        )
+    feed.add_item(
+        title=post_title,
+        link=post_link,
+        description=post_description,
+        pubdate=post_date_obj,
+        author_name=post_author,
+    )
     
 
 # Generate the RSS feed and write it to a file
