@@ -734,6 +734,10 @@
     h2{
       font-size: 1.5rem;
     }
+    
+    blockquote {
+      font-size: 90%;
+    }
   }
 
   @media screen and (min-width: 700px) {
@@ -805,6 +809,7 @@
     .hide {
       display: none;
     }
+
   }
 
 
