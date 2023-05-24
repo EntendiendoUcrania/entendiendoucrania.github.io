@@ -130,10 +130,6 @@
 
 
 
-  .pagination a{
-    text-decoration: none;
-    padding: 0.5rem;
-  }
 
     /* Make default font-size 1rem and add smooth scrolling to anchors */
   html {
@@ -176,7 +172,7 @@
     padding-left: 3rem;
   }
 
-  
+
   
   /* changed this from the tutorial video to
      allow it to gain focus, making it tabbable */
@@ -561,16 +557,39 @@
 
   }
 
+
+
     /* pagination style */
+
+
+  ul.pager { text-align: center; list-style: none; }
+  ul.pager li {display: inline;border: 1px solid black; padding: 10px; margin: 5px;}
+  .selected{ background-color: magenta; }
 
   .pagination {
     display: flex;
     justify-content: center;
     gap: 2rem;
+    color: hsl(0, 83%, 43%);
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
   }
 
 
+  .pagination a {
+    color: hsl(0, 83%, 43%);
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+  }
 
+  .pagination a.active {
+    background-color: hsl(0, 83%, 43%);
+    color: white;
+  }
+  
+  .pagination a:hover:not(.active) {background-color: #ddd;}
 
 
 
@@ -661,29 +680,6 @@
     }
 
 
-
-
-
-
-      /* header nav {
-        display: none;
-      }
-
-      .menu-bar {
-        display: block;
-      }
-
-      .nav2 {
-        display: none;
-      }
-
-      .after-nav2 {
-        display: none;
-      }
-
-      .toggle-menu:checked nav ul {
-        display: block
-      } */
 
       @media screen and (min-width: 700px) {
         .nav-toggle-label {
