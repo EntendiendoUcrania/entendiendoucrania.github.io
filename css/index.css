@@ -38,6 +38,8 @@
       url('./fonts/LM-bold-italic.ttf') format('truetype');
   }
 
+  @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
 
 
   /* Box sizing rules */
@@ -157,14 +159,12 @@
 
   header a, header a:link, header a:visited{
     color: black;
-    /* color: var(--link-visited); */
     font-weight: bold;
   }
 
   header ul {
     color: black;
     font-weight: bold;
-    /* color: var(--link-visited); */
     font-variant-caps: small-caps;
   }
 
@@ -174,8 +174,6 @@
 
 
   
-  /* changed this from the tutorial video to
-     allow it to gain focus, making it tabbable */
   .nav-toggle {
     position: absolute !important;
     top: -9999px !important;
@@ -362,9 +360,6 @@
     line-height: 1.8;
     color: var(--body-color);
     background-color: var(--body-bg-color);
-    
-      
-
   }
 
   main{
@@ -625,6 +620,87 @@
   .logo {
     width: 85px
   }
+
+
+
+.footer {
+  margin-left: -1.5rem;
+  font-family: "Poppins", sans-serif;
+  position: relative;
+  width: 100%;
+  background: black;
+  min-height: 100px;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.foot {
+  background: black;
+}
+
+.social-icon,
+.menu {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  flex-wrap: wrap;
+}
+
+
+.social-icon__item,
+.menu__item {
+  list-style: none;
+}
+
+.first__item {
+  list-style: none;
+  font-variant-caps: small-caps;
+  text-decoration: underline;
+  color: #fff;
+  margin: 0 10px;
+  opacity: 0.75;
+  font-weight: 300;
+}
+
+.social-icon__link {
+  font-size: 2rem;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+}
+.social-icon__link:hover {
+  transform: translateY(-10px);
+}
+
+.menu__link {
+  font-size: 1rem;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+  text-decoration: none;
+  opacity: 0.75;
+  font-weight: 300;
+}
+
+.menu__link:hover {
+  opacity: 1;
+}
+
+.footer p, a {
+  color: #fff;
+  margin: 15px 0 10px 0;
+  font-size: 1rem;
+  font-weight: 300;
+  text-decoration: none;
+}
+
 
 
     /* Media query */
