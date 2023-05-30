@@ -679,7 +679,6 @@
 }
 
 .menu__link {
-  font-size: 1rem;
   color: #fff;
   margin: 0 10px;
   display: inline-block;
@@ -696,7 +695,6 @@
 .footer p, a {
   color: #fff;
   margin: 15px 0 10px 0;
-  font-size: 1rem;
   font-weight: 300;
   text-decoration: none;
 }
@@ -751,6 +749,20 @@
 
       .description {
         display: none;
+      }
+
+      .menu {
+        display: initial;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .first__item,
+      .menu__link {
+        font-size: 80%;
+        align-items: left;
+        justify-content: left;
+        margin-left: -5rem;
       }
 
     }
@@ -830,6 +842,7 @@
         .short-description {
           display: none;
         }
+
       }
   
 
