@@ -751,18 +751,12 @@
         display: none;
       }
 
-      .menu {
-        display: initial;
-        justify-content: center;
-        align-items: center;
+      .footer p,
+      .first__item {
+        font-size: 85%;
       }
-
-      .first__item,
       .menu__link {
-        font-size: 80%;
-        align-items: left;
-        justify-content: left;
-        margin-left: -5rem;
+        font-size: 75%;
       }
 
     }
