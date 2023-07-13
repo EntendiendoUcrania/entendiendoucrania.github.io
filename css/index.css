@@ -718,13 +718,9 @@
       .grid-item {
         width: 49%;
       }
-  
-      
-    }
-  
-    @media screen and (max-width: 700px) {
-      .grid-item {
-        width: 100%;
+
+      .logo {
+        width: 70px;
       }
 
       .nav2 {
@@ -734,6 +730,21 @@
       .after-nav2 {
         display: none;
       }
+
+      .description {
+        display: none;
+      }
+
+  
+      
+    }
+  
+    @media screen and (max-width: 700px) {
+      .grid-item {
+        width: 100%;
+      }
+
+
 
       h1 {
         margin-top: 3rem;
@@ -745,10 +756,6 @@
     
       main {
         max-width: 100%;
-      }
-
-      .description {
-        display: none;
       }
 
       .footer p,
@@ -763,7 +770,7 @@
 
 
 
-      @media screen and (min-width: 700px) {
+      @media screen and (min-width: 970px) {
         .nav-toggle-label {
           display: none;
         }
