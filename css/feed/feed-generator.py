@@ -7,10 +7,11 @@ from urllib.parse import urljoin
 import requests
 
 # Define the URL of the index file
-url = 'https://entendiendoucrania.com/index.html'
+url = '_site/index.html'
 
 # Send a GET request to the URL and parse the HTML using BeautifulSoup
-html = requests.get(url).text
+with open(url, 'r', encoding='utf-8') as file:
+    html = file.read()
 soup = BeautifulSoup(html, 'html.parser')
 
 # Define the metadata for the RSS feed
