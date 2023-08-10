@@ -703,7 +703,7 @@
 
     /* Media query */
 
-    @media screen and (max-width: 1350px) {
+    @media screen and (max-width: 1400px) {
       .grid-item {
         width: 32.5%;
       }
