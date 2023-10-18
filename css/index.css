@@ -660,6 +660,10 @@
   flex-direction: column;
 }
 
+.right-footer li {
+  list-style: none;
+}
+
 .social-icon,
 .menu {
   position: relative;
@@ -800,9 +804,7 @@
         margin: 10px 0;
       }
   
-      .right-footer li {
-        list-style: none;
-      }
+
 
     }
 
