@@ -639,8 +639,25 @@
   flex-direction: column;
 }
 
+.suscript{
+  display: flex;
+  position: relative;
+  list-style: none;
+  flex-direction: row;
+}
+
 .foot {
   background: black;
+}
+
+.footer p {
+  color: #fff;
+  margin-top: 20px;
+}
+
+.right-footer {
+  display: flex;
+  flex-direction: column;
 }
 
 .social-icon,
@@ -694,10 +711,15 @@
   opacity: 1;
 }
 
-.footer p, a {
+.contact {
   color: #fff;
   margin: 15px 0 10px 0;
   font-weight: 300;
+  text-decoration: none;
+}
+
+.contact__link, .contact__link:visited {
+  color: #fff;
   text-decoration: none;
 }
 
@@ -766,6 +788,20 @@
       }
       .menu__link {
         font-size: 75%;
+      }
+
+      .suscript {
+        flex-direction: column;
+      }
+  
+      .right-footer{
+        align-items: center;
+        justify-content: center;
+        margin: 10px 0;
+      }
+  
+      .right-footer li {
+        list-style: none;
       }
 
     }
