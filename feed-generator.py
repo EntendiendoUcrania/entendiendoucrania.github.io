@@ -60,7 +60,7 @@ for post in posts:
     ET.SubElement(item, 'title').text = post_title
     ET.SubElement(item, 'link').text = post_link
     ET.SubElement(item, 'description').text = post_description
-    ET.SubElement(item, 'pubDate').text = post_date_obj.strftime('%a, %d %b %Y %H:%M:%S %z')
+    ET.SubElement(item, 'pubDate').text = post_date_obj.strftime('%a, %d %b %Y')
     ET.SubElement(item, 'author').text = post_author
     
     # Add the enclosure element if image URL is available
