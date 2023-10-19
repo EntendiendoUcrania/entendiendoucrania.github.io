@@ -689,13 +689,11 @@
 
 
   .footer {
-    margin-left: -1.5rem;
     font-family: "Latin Modern", sans-serif;
     position: relative;
     width: 100%;
     background: black;
     min-height: 100px;
-    padding: 20px 50px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -707,20 +705,14 @@
     position: relative;
     list-style: none;
     flex-direction: row;
+    padding: 0 0 0 0;
   }
   
-  .foot {
-    background: black;
-  }
-
-  .footer p {
-    color: #fff;
-    margin-top: 20px;
-  }
 
   .right-footer {
     display: flex;
     flex-direction: column;
+    padding: 0px 10px 0px 10px;
   }
 
   .right-footer li {
@@ -735,6 +727,11 @@
     align-items: center;
     margin: 10px 0;
     flex-wrap: wrap;
+    padding: 0px 10px 0px 10px;
+  }
+
+  .social-icon__item {
+    margin: 0px 10px;
   }
   
   
@@ -749,14 +746,14 @@
     text-decoration: underline;
     color: #fff;
     margin: 0px 10px;
-    margin-top: 17px;
+    margin-top: 10px;
     font-weight: 300;
   }
   
   .social-icon__link {
     font-size: 2rem;
     color: #fff;
-    margin: 0 10px;
+    margin-top: 10px;
     display: inline-block;
     transition: 0.5s;
   }
@@ -785,14 +782,16 @@
   .menu__link:visited {
     color: #fff;;
   }
-  
-  .contact {
+
+  .footer p {
+    margin-top: 0px;
+    padding: 10px 0px;
     color: #fff;
-    margin: 15px 0 10px 0;
     font-weight: 300;
     text-decoration: none;
+    text-align: center;
   }
-
+  
   .contact__link, .contact__link:visited {
     color: #fff;
     text-decoration: none;
@@ -856,7 +855,6 @@
     .right-footer{
       align-items: center;
       justify-content: center;
-      margin: 10px 0;
     }
 
   
