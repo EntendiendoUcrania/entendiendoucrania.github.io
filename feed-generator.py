@@ -70,3 +70,5 @@ for post in posts:
 # Create the XML tree and write it to a file
 tree = ET.ElementTree(rss)
 tree.write('entendiendoucrania.xml', encoding='utf-8', xml_declaration=True)
+
+print(f"RSS feed successfully modified.")
