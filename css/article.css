@@ -255,6 +255,11 @@
     h1 {
       margin-top: 4rem;
     }
+
+
+    .title-article{
+      margin-top: 8rem;
+    }
   
 
 
@@ -846,7 +851,7 @@
       max-width: 95%;
     }
 
-    h1 {
+    .title-article {
       margin-top: 3rem;
     }
 
