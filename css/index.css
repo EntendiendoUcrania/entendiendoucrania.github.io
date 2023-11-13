@@ -269,14 +269,8 @@
 
 
   h1 {
-    margin-top: 4rem;
+    margin-top: 5rem;
   }
-
-  .title-website {
-    font-size: 50px;
-    text-shadow: 1px 1px 4px white;
-  }
-
 
   
   /* Second navigator: includes all website labels */
@@ -474,7 +468,7 @@
   .grid-item {
     flex-basis: calc(33.33% - 10px);
     margin-bottom: 10px;
-    width: 24%;   
+    width: 24%;
     box-sizing: border-box;
     min-height: auto;
     padding: 1rem;
@@ -485,7 +479,6 @@
     transition: 0.3s;  
     align-items: center;  
   }
-
 
   .grid-item:hover {
     border-color: rgb(58, 56, 56);
@@ -622,7 +615,11 @@
   /* main logo */
 
   .logo {
-    width: 85px
+    width: 250px
+  }
+
+  .hidden-logo{
+    display: none;
   }
 
 
@@ -751,7 +748,21 @@
       }
 
       .logo {
-        width: 70px;
+        width: 175px;
+        padding-right: 25px;
+      }
+
+      .hidden-logo {
+        display: block;
+        width: 175px;
+      }
+
+      .main-logo {
+        display: none;
+      }
+
+      h1 {
+        margin-top: 5.5rem;
       }
 
       .nav2 {
@@ -766,6 +777,10 @@
         display: none;
       }
 
+      .short-description {
+        margin-top: 5.5rem;
+      }
+
   
       
     }
@@ -778,11 +793,26 @@
 
 
       h1 {
-        margin-top: 3rem;
+        margin-top: 4.5rem;
       }
 
       .logo {
-        width: 40px;
+        width: 175px;
+        padding-right: 25px;
+      }
+
+      .hidden-logo{
+        display: block;
+        width: 175px;
+        padding-right: 25px;
+      }
+
+      main-logo {
+        display: none;
+      }
+
+      .short-description {
+        margin-top: 5rem;
       }
     
       main {

@@ -118,6 +118,10 @@
   html {
     font-size: 1.04rem;
   }
+
+  main p{
+    font-size: 1.25rem;
+  }
   @media (prefers-reduced-motion: no-preference) {
     html {
       scroll-behavior: smooth;
@@ -262,7 +266,7 @@
     }
   
 
-
+  /* Share button logos */
 
   .logos {
     width: 150px;
@@ -367,7 +371,7 @@
    /* main logo */
 
    .logo {
-    width: 75px
+    width: 250px
   }
 
     /* A elements that don't have a class get default styles */
@@ -684,11 +688,6 @@
     }
   }
 
-    /* main logo */
-
-    .logo {
-      width: 85px
-    }
 
   /* Footer */
 
@@ -842,7 +841,12 @@
   @media screen and (max-width: 970px) {
 
     .logo {
-      width: 70px;
+      width: 175px;
+      padding-right: 25px;
+    }
+
+    .title-article {
+      margin-top: 5rem;
     }
   }
 
@@ -851,12 +855,17 @@
       max-width: 95%;
     }
 
+    main p {
+      font-size: 1.05rem;
+    }
+
     .title-article {
-      margin-top: 3rem;
+      margin-top: 5rem;
     }
 
     .logo {
-      width: 40px;
+      width: 175px;
+      padding-right: 25px;
     }
 
     h1 {
