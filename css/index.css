@@ -465,19 +465,29 @@
 
   /* grid-item stlying, width changes depending on the viewport size see media query */
 
+  .grid-sizer{
+    width: 24%;
+  }
+
   .grid-item {
-    flex-basis: calc(33.33% - 10px);
+    /* flex-basis: calc(33.33% - 10px); */
     margin-bottom: 10px;
     width: 24%;
+    height: 600px;
     box-sizing: border-box;
     min-height: auto;
     padding: 1rem;
-		background-color: #F3F4F5;
+		background-color: rgb(244, 245, 246);
     border: 1px solid #DCDEE2;
     border-radius: 8px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;  
-    align-items: center;  
+    align-items: center;
+    overflow: hidden;
+  }
+
+  .grid-item-double{
+    width: 49%
   }
 
   .grid-item:hover {
@@ -503,6 +513,15 @@
     align-items: center;
   }
 
+  .gradient-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 15%;
+    background: linear-gradient(rgb(244, 245, 246, 0), rgb(244, 245, 246, 1));
+    pointer-events: none;
+}
 
   /* inside grid-items label style */
 
@@ -539,15 +558,28 @@
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   }
 
+  .content {
+    padding: 15px;
+    flex-grow: 1;
+    position: relative;
+    overflow: hidden;
+}
 
-  .source{
+
+  .read-more{
+    display: none;
     position: absolute;
-    font-size: small;
-    margin-top: 10px;
-    bottom: -3px;
+    padding-left: 10px;
+    font-size: small;   
+    bottom: 1px;
     right: 10px;
 
   }
+
+
+  .grid-item:hover .read-more {
+    display: block;
+}
 
 
 
@@ -732,8 +764,17 @@
     /* Media query */
 
     @media screen and (max-width: 1400px) {
+      .grid-sizer{
+        width: 32.5%;
+      }
+
       .grid-item {
         width: 32.5%;
+        height: 550px;
+      }
+
+      .grid-item-double{
+        width: 66%
       }
       
       .nav2 ul li {
@@ -743,6 +784,11 @@
     }
   
     @media screen and (max-width: 970px) {
+      .grid-sizer{
+        width: 49%;
+        height: 550px;
+      }
+
       .grid-item {
         width: 49%;
       }
@@ -788,9 +834,12 @@
     @media screen and (max-width: 700px) {
       .grid-item {
         width: 100%;
+        height: 550px;
       }
 
-
+      .grid-item .read-more{
+        display: block;
+      }
 
       h1 {
         margin-top: 4.5rem;

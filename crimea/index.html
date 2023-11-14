@@ -112,6 +112,7 @@
 <hr class="after-nav2">
 
 <div class="grid">
+  <div class="grid-sizer"></div>
 
   
 
@@ -126,8 +127,9 @@
             <h2>Los tártaros como nexo entre Crimea y Ucrania</h2>
             <p class="author">Entrevista a Mariia Shynkarenko</p>
             
-            <p>En la Unión Soviética, todas las minorías étnicas fueron efectivamente deportadas de Crimea en 1944. En 1967, el Decreto de Rehabilitación firmado por Nikita Jruschev que denunciaba la deportación, permitió que todos, excepto los tártaros de Crimea, regresaran a Crimea. Los tártaros de Crimea fueron deportados por la fuerza de nuevo tan pronto como pusieron un pie en Crimea.</p>
-            <div class="source"><p>lee en orientemedio.news</p></div>
+            <p class="content">En la Unión Soviética, todas las minorías étnicas fueron efectivamente deportadas de Crimea en 1944. En 1967, el Decreto de Rehabilitación firmado por Nikita Jruschev que denunciaba la deportación, permitió que todos, excepto los tártaros de Crimea, regresaran a Crimea. Los tártaros de Crimea fueron deportados por la fuerza de nuevo tan pronto como pusieron un pie en Crimea.</p>
+            <span class="gradient-overlay"></span>
+            <div class="read-more"><p class="read-morep">lee en orientemedio.news
         </div>
     </a>
 </div>
@@ -138,7 +140,7 @@
  
       <div class="post"><span class="pubDate" hidden>11-02-2023</span><span class="descript" hidden>La principal tarea de los ucranianos es dar prioridad a las voces de los tártaros de Crimea, mostrar atención y respeto a las personas, que hoy permanecen codo con codo con nosotros. Al fin y al cabo, la única manera de que Crimea sea igualitaria y justa es mediante la inclusión de voces anteriormente excluidas y oprimidas.</span>
     <a href="https://entendiendoucrania.com/crimea/shynkarenko_2">
-        <div class="grid-item">
+        <div class="grid-item grid-item-double">
             <div class="inside-flex">
                 <div class="tag"></div>
                 <p>18/05/23</p>
@@ -146,8 +148,9 @@
             <h2>La desocupación de Crimea: los tártaros de Crimea y el camino hacia la descolonización</h2>
             <p class="author">Mariia Shynkarenko</p>
             <img src=" https://entendiendoucrania.com/images/crimea/shynkarenko_2/img4.webp" width="850" height="468" alt="La desocupación de Crimea: los tártaros de Crimea y el camino hacia la descolonización">
-            <p>La principal tarea de los ucranianos es dar prioridad a las voces de los tártaros de Crimea, mostrar atención y respeto a las personas, que hoy permanecen codo con codo con nosotros. Al fin y al cabo, la única manera de que Crimea sea igualitaria y justa es mediante la inclusión de voces anteriormente excluidas y oprimidas.</p>
-            
+            <p class="content">Muchos tártaros de Crimea ya están considerando seriamente la forma de autodeterminación que prefieren y el estatuto jurídico de Crimea basado en el marco jurídico internacional. Desde su representación política en el gobierno de Crimea hasta la protección del patrimonio cultural, hay muchas formas de hacer realidad la autonomía. La principal tarea de los ucranianos, sin embargo, es dar prioridad a las voces de los tártaros de Crimea, mostrar atención y respeto a las personas, que hoy permanecen codo con codo con nosotros. Al fin y al cabo, la única manera de que Crimea sea igualitaria y justa es mediante la inclusión de voces anteriormente excluidas y oprimidas.</p>
+            <span class="gradient-overlay"></span>
+            <div class="read-more"><p class="read-morep">lee aquí
         </div>
     </a>
 </div>
@@ -265,6 +268,22 @@ $.extend($.validator.messages, {
   
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    
+    <!-- <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var cardLinks = document.querySelectorAll('.card-link');
+            cardLinks.forEach(function (cardLink) {
+                var content = cardLink.querySelector('.content');
+                var gradientOverlay = cardLink.querySelector('.gradient-overlay');
+                var readMore = cardLink.querySelector('.read-more');
+    
+                if (content.scrollHeight > content.clientHeight) {
+                    gradientOverlay.style.display = 'block';
+                    readMore.style.display = 'block';
+                }
+            });
+        });
+    </script> -->
 
     <script src="\js/masonry.js"></script>
     <script src="\js/imagesLoaded.js"></script>
@@ -276,8 +295,9 @@ $.extend($.validator.messages, {
     imagesLoaded( grid, function() {
         msnry = new Masonry( grid, {
         itemSelector: '.grid-item',
-        columnWidth: '.grid-item',
+        columnWidth: '.grid-sizer',
         gutter: 10,
+        percentPosition: true,
         debounceResize: false
       });
     });
@@ -285,8 +305,9 @@ $.extend($.validator.messages, {
     window.addEventListener('resize', function() {
         msnry = new Masonry( grid, {
         itemSelector: '.grid-item',
-        columnWidth: '.grid-item',
+        columnWidth: '.grid-sizer',
         gutter: 10,
+        percentPosition: true,
         debounceResize: false
       });
     });
