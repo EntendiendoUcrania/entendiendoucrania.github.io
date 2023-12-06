@@ -1,82 +1,559 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    <url>
+        <loc>https://entendiendoucrania.com/</loc>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
 
 
-<url>
-  <loc>https://entendiendoucrania.com/</loc>
-  <lastmod>2023-03-21T15:17:32+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://entendiendoucrania.com/index.html</loc>
-  <lastmod>2023-03-21T15:17:32+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://entendiendoucrania.com/derecho_resistir.html</loc>
-  <lastmod>2023-03-21T15:17:32+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://entendiendoucrania.com/historia_general.html</loc>
-  <lastmod>2023-03-21T15:17:32+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://entendiendoucrania.com/maidan.html</loc>
-  <lastmod>2023-03-21T15:17:32+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://entendiendoucrania.com/izquierda.html</loc>
-  <lastmod>2023-03-21T15:17:32+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://entendiendoucrania.com/feminismo.html</loc>
-  <lastmod>2023-03-21T15:17:32+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://entendiendoucrania.com/movimiento_lgbt.html</loc>
-  <lastmod>2023-03-21T15:17:32+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://entendiendoucrania.com/anarquismo.html</loc>
-  <lastmod>2023-03-21T15:17:32+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://entendiendoucrania.com/imperialismo.html</loc>
-  <lastmod>2023-03-21T15:17:32+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://entendiendoucrania.com/crimenes.html</loc>
-  <lastmod>2023-03-21T15:17:32+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://entendiendoucrania.com/dona.html</loc>
-  <lastmod>2023-03-21T15:17:32+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://entendiendoucrania.com/porque.html</loc>
-  <lastmod>2023-03-21T15:17:32+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://entendiendoucrania.com/contact.html</loc>
-  <lastmod>2023-03-21T15:17:32+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
+    
+    <url>
+        <loc>https://entendiendoucrania.com/busqueda</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+
+    
+    <url>
+        <loc>https://entendiendoucrania.com/contacto</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+
+    
+    <url>
+        <loc>https://entendiendoucrania.com/dona</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+
+    
+    <url>
+        <loc>https://entendiendoucrania.com/porque</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+
+    
+
+    
+    <url>
+        <loc>https://entendiendoucrania.com/sitemap.xml</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+
+    
+    <url>
+        <loc>https://entendiendoucrania.com/anarquismo/</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+
+    
+    <url>
+        <loc>https://entendiendoucrania.com/crimea/</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+
+    
+    <url>
+        <loc>https://entendiendoucrania.com/crimenes/</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+
+    
+    <url>
+        <loc>https://entendiendoucrania.com/derecho_resistir/</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+
+    
+    <url>
+        <loc>https://entendiendoucrania.com/feminismo/</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+
+    
+    <url>
+        <loc>https://entendiendoucrania.com/global/</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+
+    
+    <url>
+        <loc>https://entendiendoucrania.com/historia/</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+
+    
+    <url>
+        <loc>https://entendiendoucrania.com/imperialismo/</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+
+    
+
+    
+    <url>
+        <loc>https://entendiendoucrania.com/page/2/</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.2</priority>
+    </url>
+    
+    
+
+    
+    <url>
+        <loc>https://entendiendoucrania.com/page/3/</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.2</priority>
+    </url>
+    
+    
+
+    
+    <url>
+        <loc>https://entendiendoucrania.com/invasion/</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+
+    
+    <url>
+        <loc>https://entendiendoucrania.com/invasion/page/2/</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.2</priority>
+    </url>
+    
+
+    
+    <url>
+        <loc>https://entendiendoucrania.com/izquierda/</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+
+    
+    <url>
+        <loc>https://entendiendoucrania.com/izquierda/page/2/</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.2</priority>
+    </url>
+    
+
+    
+    <url>
+        <loc>https://entendiendoucrania.com/maidan/</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+
+    
+    <url>
+        <loc>https://entendiendoucrania.com/movimiento_lgbt/</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+
+
+
+
+    <url>
+        <loc>https://entendiendoucrania.com/feminismo/somos-todas-hermanas-feminismo-ucraniano-entre-occidente-y-rusia</loc>
+        <lastmod>2023-12-06T00:00:00+01:00</lastmod>
+        <priority>0.8</priority>
+        <image:image><image:loc>https://www.entendiendoucrania.com/images/feminismo/hrytsenko_2/img6_resized.webp</image:loc></image:image>
+    </url>
+
+
+
+
+    <url>
+        <loc>https://entendiendoucrania.com/izquierda/partidos-prohibidos-ucrania</loc>
+        <lastmod>2023-12-01T00:00:00+01:00</lastmod>
+        <priority>0.8</priority>
+        
+    </url>
+
+
+
+
+    <url>
+        <loc>https://entendiendoucrania.com/historia/prefacio-reedicion-internacionalismo-rusificacion-ivan-dziuba</loc>
+        <lastmod>2023-11-26T00:00:00+01:00</lastmod>
+        <priority>0.8</priority>
+        <image:image><image:loc>https://entendiendoucrania.com/images/historia/starodubtsev_3/img3_resized.webp</image:loc></image:image>
+    </url>
+
+
+
+
+
+
+
+
+    <url>
+        <loc>https://entendiendoucrania.com/historia/socialismo-yiddishkeit-doykeit-breve-historia-bund-judio-ucraniano</loc>
+        <lastmod>2023-11-18T00:00:00+01:00</lastmod>
+        <priority>0.8</priority>
+        <image:image><image:loc>https://entendiendoucrania.com/images/historia/ishchenko_1/img4_resized.webp</image:loc></image:image>
+    </url>
+
+
+
+
+    <url>
+        <loc>https://entendiendoucrania.com/global/mantener-el-rumbo</loc>
+        <lastmod>2023-11-15T00:00:00+01:00</lastmod>
+        <priority>0.8</priority>
+        
+    </url>
+
+
+    <url>
+        <loc>https://entendiendoucrania.com/izquierda/entrevista-hanna-perekhoda-izquierda-ucrania-occidente</loc>
+        <lastmod>2023-11-13T00:00:00+01:00</lastmod>
+        <priority>0.8</priority>
+        <image:image><image:loc>https://entendiendoucrania.com/images/izquierda/perekhoda_4/img1_resized.webp</image:loc></image:image>
+    </url>
+
+
+
+
+    <url>
+        <loc>https://entendiendoucrania.com/historia/revolucion-ucraniana-izquierda-historia-democracia</loc>
+        <lastmod>2023-11-09T00:00:00+01:00</lastmod>
+        <priority>0.8</priority>
+        
+    </url>
+
+
+    <url>
+        <loc>https://entendiendoucrania.com/derecho_resistir/carta-ucraniana-solidaridad-palestina</loc>
+        <lastmod>2023-11-05T00:00:00+01:00</lastmod>
+        <priority>0.8</priority>
+        
+    </url>
+
+
+    <url>
+        <loc>https://entendiendoucrania.com/crimea/shynkarenko_2</loc>
+        <lastmod>2023-11-02T00:00:00+01:00</lastmod>
+        <priority>0.8</priority>
+        <image:image><image:loc>https://entendiendoucrania.com/images/crimea/shynkarenko_2/img4.webp</image:loc></image:image>
+    </url>
+
+
+
+
+    <url>
+        <loc>https://entendiendoucrania.com/historia/havryshko_2</loc>
+        <lastmod>2023-10-26T00:00:00+02:00</lastmod>
+        <priority>0.8</priority>
+        <image:image><image:loc>https://entendiendoucrania.com/images/historia/havryshko_2/img7_resized.webp</image:loc></image:image>
+    </url>
+
+
+
+
+    <url>
+        <loc>https://entendiendoucrania.com/izquierda/perekhoda_3</loc>
+        <lastmod>2023-10-22T00:00:00+02:00</lastmod>
+        <priority>0.8</priority>
+        <image:image><image:loc>https://entendiendoucrania.com/images/izquierda/perekhoda_3/img1_resize.webp</image:loc></image:image>
+    </url>
+
+
+    <url>
+        <loc>https://entendiendoucrania.com/derecho_resistir/saburova_3</loc>
+        <lastmod>2023-10-21T00:00:00+02:00</lastmod>
+        <priority>0.8</priority>
+        
+    </url>
+
+
+
+
+    <url>
+        <loc>https://entendiendoucrania.com/crimenes/o-butkevych_1</loc>
+        <lastmod>2023-10-18T00:00:00+02:00</lastmod>
+        <priority>0.8</priority>
+        <image:image><image:loc>https://entendiendoucrania.com/images/crimenes/o-butkevych_1/img1_resized.webp</image:loc></image:image>
+    </url>
+
+
+    <url>
+        <loc>https://entendiendoucrania.com/crimenes/cf-resu_2</loc>
+        <lastmod>2023-10-17T00:00:00+02:00</lastmod>
+        <priority>0.8</priority>
+        <image:image><image:loc>https://entendiendoucrania.com/images/crimenes/cf-resu_2/img1_resized.webp</image:loc></image:image>
+    </url>
+
+
+
+
+    <url>
+        <loc>https://entendiendoucrania.com/anarquismo/s-movchan_1</loc>
+        <lastmod>2023-10-15T00:00:00+02:00</lastmod>
+        <priority>0.8</priority>
+        <image:image><image:loc>https://entendiendoucrania.com/images/anarquismo/s-movchan_1/img1_resized.webp</image:loc></image:image>
+    </url>
+
+
+
+
+    <url>
+        <loc>https://entendiendoucrania.com/crimenes/mariupol_1</loc>
+        <lastmod>2023-09-21T00:00:00+02:00</lastmod>
+        <priority>0.8</priority>
+        <image:image><image:loc>https://entendiendoucrania.com/images/crimenes/mariupol_1/img1.webp</image:loc></image:image>
+    </url>
+
+
+
+
+
+
+
+
+    <url>
+        <loc>https://entendiendoucrania.com/invasion/artiukh-fedirko_1</loc>
+        <lastmod>2023-09-11T00:00:00+02:00</lastmod>
+        <priority>0.8</priority>
+        <image:image><image:loc>https://www.entendiendoucrania.com/images/invasion/artiukh_fedirko_1/img2_resized.webp</image:loc></image:image>
+    </url>
+
+
+    <url>
+        <loc>https://entendiendoucrania.com/invasion/bilous_5</loc>
+        <lastmod>2023-09-10T00:00:00+02:00</lastmod>
+        <priority>0.8</priority>
+        
+    </url>
+
+
+
+
+
+
+
+
+    <url>
+        <loc>https://entendiendoucrania.com/historia/himka_2</loc>
+        <lastmod>2023-08-24T00:00:00+02:00</lastmod>
+        <priority>0.8</priority>
+        <image:image><image:loc>https://entendiendoucrania.com/images/historia/himka_2/img13-1991_resized.webp</image:loc></image:image>
+    </url>
+
+
+    <url>
+        <loc>https://entendiendoucrania.com/historia/amelina_1</loc>
+        <lastmod>2023-08-14T00:00:00+02:00</lastmod>
+        <priority>0.8</priority>
+        <image:image><image:loc>https://entendiendoucrania.com/images/historia/amelina_1/img3_resized.webp</image:loc></image:image>
+    </url>
+
+
+
+
+    <url>
+        <loc>https://entendiendoucrania.com/derecho_resistir/olenchenko_1</loc>
+        <lastmod>2023-08-09T00:00:00+02:00</lastmod>
+        <priority>0.8</priority>
+        
+    </url>
+
+
+
+
+
+
+    <url>
+        <loc>https://entendiendoucrania.com/historia/mirra_1</loc>
+        <lastmod>2023-07-20T00:00:00+02:00</lastmod>
+        <priority>0.8</priority>
+        <image:image><image:loc>https://entendiendoucrania.com/images/historia/mirra_1/img3-resize.webp</image:loc></image:image>
+    </url>
+
+
+
+
+    <url>
+        <loc>https://entendiendoucrania.com/crimenes/havryshko_1</loc>
+        <lastmod>2023-07-05T00:00:00+02:00</lastmod>
+        <priority>0.8</priority>
+        <image:image><image:loc>https://www.entendiendoucrania.com/images/index/grave.webp</image:loc></image:image>
+    </url>
+
+
+
+
+
+
+    <url>
+        <loc>https://entendiendoucrania.com/crimenes/osievsky_1</loc>
+        <lastmod>2023-05-30T00:00:00+02:00</lastmod>
+        <priority>0.8</priority>
+        <image:image><image:loc>https://www.entendiendoucrania.com/images/crimenes/osievsky_1/img1_resized.webp</image:loc></image:image>
+    </url>
+
+
+
+
+
+
+    <url>
+        <loc>https://entendiendoucrania.com/feminismo/hrytsenko_1</loc>
+        <lastmod>2023-05-17T00:00:00+02:00</lastmod>
+        <priority>0.8</priority>
+        <image:image><image:loc>https://www.entendiendoucrania.com/images/index/muyeres.webp</image:loc></image:image>
+    </url>
+
+
+    <url>
+        <loc>https://entendiendoucrania.com/historia/himka_1</loc>
+        <lastmod>2023-04-23T00:00:00+02:00</lastmod>
+        <priority>0.8</priority>
+        <image:image><image:loc>https://www.entendiendoucrania.com/images/index/drahomanov.webp</image:loc></image:image>
+    </url>
+
+
+
+
+
+
+    <url>
+        <loc>https://entendiendoucrania.com/crimenes/anton_1</loc>
+        <lastmod>2023-04-13T00:00:00+02:00</lastmod>
+        <priority>0.8</priority>
+        <image:image><image:loc>https://www.entendiendoucrania.com/images/index/anton.webp</image:loc></image:image>
+    </url>
+
+
+    <url>
+        <loc>https://entendiendoucrania.com/izquierda/shumakov_1</loc>
+        <lastmod>2023-04-03T00:00:00+02:00</lastmod>
+        <priority>0.8</priority>
+        <image:image><image:loc>https://www.entendiendoucrania.com/images/index/shukamov.webp</image:loc></image:image>
+    </url>
+
+
+    <url>
+        <loc>https://entendiendoucrania.com/feminismo/gheorghiev_1</loc>
+        <lastmod>2023-04-03T00:00:00+02:00</lastmod>
+        <priority>0.8</priority>
+        
+    </url>
+
+
+
+
+    <url>
+        <loc>https://entendiendoucrania.com/derecho_resistir/iryskina_1</loc>
+        <lastmod>2023-03-30T00:00:00+02:00</lastmod>
+        <priority>0.8</priority>
+        <image:image><image:loc>https://www.entendiendoucrania.com/images/index/pride.webp</image:loc></image:image>
+    </url>
+
+
+    <url>
+        <loc>https://entendiendoucrania.com/derecho_resistir/zlobina_1</loc>
+        <lastmod>2023-03-23T00:00:00+01:00</lastmod>
+        <priority>0.8</priority>
+        
+    </url>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <url>
+        <loc>https://entendiendoucrania.com/derecho_resistir/gorbach_1</loc>
+        <lastmod>2023-02-28T00:00:00+01:00</lastmod>
+        <priority>0.8</priority>
+        
+    </url>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 </urlset>
