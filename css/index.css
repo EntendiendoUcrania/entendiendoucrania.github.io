@@ -332,7 +332,7 @@
       content: '';
       display: block;
       height: 3px;
-      background: rgba(0, 0, 0, 0.596);
+      background: rgba(251, 221, 0);
       top: -1em;
       left: 0;
       right: 0;
@@ -341,7 +341,7 @@
     }
 
   .nav2 a:hover{
-    color: rgba(0, 0, 0, 0.596);
+    color: rgba(0, 87, 183);
   }
 
   .nav2 a:hover::before{
@@ -491,9 +491,11 @@
   }
 
   .grid-item:hover {
-    border-color: rgb(58, 56, 56);
+    border-color: rgb(0, 87, 183);
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-      }
+  }
+    
+  
 
   .grid-item h2, h3, h4{
     text-align: center;
@@ -594,7 +596,7 @@
     display: flex;
     justify-content: center;
     gap: 2rem;
-    color: hsl(0, 83%, 43%);
+    color: rgb(0, 87, 183);
     padding: 8px 16px;
     text-decoration: none;
     transition: background-color .3s;
@@ -602,18 +604,18 @@
 
 
   .pagination a {
-    color: hsl(0, 83%, 43%);
+    color: rgb(0, 87, 183);
     padding: 8px 16px;
     text-decoration: none;
     transition: background-color .3s;
   }
 
   .pagination a.active {
-    background-color: hsl(0, 83%, 43%);
-    color: white;
+    background-color:  rgb(0, 87, 183);
+    color: rgb(255, 221, 0);
   }
   
-  .pagination a:hover:not(.active) {background-color: #ddd;}
+  .pagination a:hover:not(.active) {background-color: rgb(255, 221, 0, 60%);}
 
 
 
@@ -680,15 +682,20 @@
   padding: 0 0 0 0;
 }
 
+.right-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .right-footer {
-  display: flex;
-  flex-direction: column;
-  padding: 0px 50px 0px 10px;
+  padding: 0px 40px 0px 20px;
 }
 
 .right-footer li {
   list-style: none;
+  justify-content: center;
+  align-items: center;
 }
 
 .social-icon,
@@ -906,11 +913,11 @@
         }
 
         header a, header a:link, header a:visited {
-          color: var(--link-visited);
+          color: black
         }
 
         header a:hover{
-          color: #fa0707;
+          color: rgb(0, 87, 183);
         }
         
         nav {
@@ -945,7 +952,7 @@
           content: '';
           display: block;
           height: 5px;
-          background: black;
+          background: rgb(255, 221, 0);
           position: absolute;
           top: -.75em;
           left: 0;
