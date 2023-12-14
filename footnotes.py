@@ -45,5 +45,5 @@ def modify_footnotes(html_file):
         modified_file.write(str(soup))
 
 if __name__ == '__main__':
-    html_file = r'C:\Users\juanm\Dropbox\entendiendoucrania_jekyll\_posts\2023\2023-12-11-bojcun_1.html'
+    html_file = r'C:\Users\juanm\Dropbox\entendiendoucrania_jekyll\_posts\2023\2023-12-14-bojcun_2.html'
     modify_footnotes(html_file)
