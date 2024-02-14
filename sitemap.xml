@@ -140,6 +140,15 @@
 
     
     <url>
+        <loc>https://entendiendoucrania.com/page/5/</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.2</priority>
+    </url>
+    
+    
+
+    
+    <url>
         <loc>https://entendiendoucrania.com/invasion/</loc>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
@@ -187,6 +196,14 @@
     
 
 
+
+
+    <url>
+        <loc>https://entendiendoucrania.com/feminismo/shefika-gasprinska-tartara-crimea</loc>
+        <lastmod>2024-02-14T00:00:00+01:00</lastmod>
+        <priority>0.8</priority>
+        <image:image><image:loc>https://entendiendoucrania.com/images/crimea/malinovska_1/img16.webp</image:loc></image:image>
+    </url>
 
 
 
