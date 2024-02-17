@@ -165,6 +165,14 @@
 
     
     <url>
+        <loc>https://entendiendoucrania.com/invasion/page/3/</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.2</priority>
+    </url>
+    
+
+    
+    <url>
         <loc>https://entendiendoucrania.com/izquierda/</loc>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
@@ -196,6 +204,14 @@
     
 
 
+
+
+    <url>
+        <loc>https://entendiendoucrania.com/izquierda/convocatoria-unida-sindicatos-franceses</loc>
+        <lastmod>2024-02-17T00:00:00+01:00</lastmod>
+        <priority>0.8</priority>
+        
+    </url>
 
 
     <url>
