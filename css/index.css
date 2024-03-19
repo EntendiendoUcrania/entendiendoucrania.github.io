@@ -561,6 +561,7 @@
   }
 
   .content {
+    margin: 0;
     padding: 15px;
     flex-grow: 1;
     position: relative;
