@@ -157,6 +157,15 @@
 
     
     <url>
+        <loc>https://entendiendoucrania.com/page/6/</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.2</priority>
+    </url>
+    
+    
+
+    
+    <url>
         <loc>https://entendiendoucrania.com/invasion/</loc>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
@@ -212,6 +221,14 @@
     
 
 
+
+
+    <url>
+        <loc>https://entendiendoucrania.com/global/el-putinismo-economico-de-suiza</loc>
+        <lastmod>2024-04-09T00:00:00+02:00</lastmod>
+        <priority>0.8</priority>
+        <image:image><image:loc>https://entendiendoucrania.com/images/index/suiza.webp</image:loc></image:image>
+    </url>
 
 
     <url>
