@@ -470,14 +470,13 @@
   }
 
   .grid-item {
-    /* flex-basis: calc(33.33% - 10px); */
     margin-bottom: 10px;
     width: 24%;
     height: 600px;
     box-sizing: border-box;
     min-height: auto;
     padding: 1rem;
-		background-color: rgb(244, 245, 246);
+		background-color: rgb(244, 245, 246, 0.7);
     border: 1px solid #DCDEE2;
     border-radius: 8px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
