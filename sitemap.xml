@@ -224,8 +224,16 @@
 
 
     <url>
+        <loc>https://entendiendoucrania.com/izquierda/espiritu-haymarket-square</loc>
+        <lastmod>2024-05-01T00:00:00+02:00</lastmod>
+        <priority>0.8</priority>
+        <image:image><image:loc>https://www.entendiendoucrania.com/images/index/haymarket.webp</image:loc></image:image>
+    </url>
+
+
+    <url>
         <loc>https://entendiendoucrania.com/crimenes/prisionero-ruso-invasion</loc>
-        <lastmod>2024-05-02T00:00:00+02:00</lastmod>
+        <lastmod>2024-04-30T00:00:00+02:00</lastmod>
         <priority>0.8</priority>
         <image:image><image:loc>https://entendiendoucrania.com/images/crimenes/coynash_1/img1_resized.webp</image:loc></image:image>
     </url>
