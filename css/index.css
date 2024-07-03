@@ -360,6 +360,12 @@
     background-color: var(--body-bg-color);
   }
 
+  .description, .short-description, .content {
+    font-family: 'Encode Sans', sans-serif;
+    line-height: 1.7;
+    font-size: 1rem
+  }
+
   main{
     max-width: 90%;
     min-height: 100vh;
