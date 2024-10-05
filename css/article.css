@@ -420,6 +420,12 @@
     margin-right: auto;
   }
 
+  .responsive-video {
+    width: 100%;
+    height: auto; 
+  }
+
+
   .twitter-tweet {
     max-width: 50%;
     height: auto;
