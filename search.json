@@ -2,10 +2,32 @@
   
     {
 
+      "title"    : "Rusia garantiza la impunidad de los responsables de los asesinatos de prisioneros de guerra, presos políticos y rehenes civiles ucranianos",
+      "url"      : "https://entendiendoucrania.com/crimenes/rusia-garantiza-impunidad-asesinatos-prisioneros",
+      "author"  : "Halya Coynash",
+      "category" : "Crímenes rusos, Invasión",
+      "date"     : "15/10/24",
+      "desc" : "Coynash expone los detalles sobre los asesinatos de prisioneros de guerra, presos políticos y civiles ucranianos por parte de Rusia y subraya la impunidad de los responsables de estos crímenes."
+
+    } ,
+  
+    {
+
+      "title"    : "Alemania, Ucrania, Rusia, OTAN: ignorar la historia y la geografía para alejarse mejor de la solidaridad",
+      "url"      : "https://entendiendoucrania.com/global/alemania-ucrania-rusia-otan-ignorar-la-historia",
+      "author"  : "Christian Zeller",
+      "category" : "Izq. global, Invasión",
+      "date"     : "23/09/24",
+      "desc" : "Christian Zeller aborda las posturas de algunos sectores de la izquierda respecto a la invasión rusa de Ucrania y la necesidad de apoyar la resistencia ucraniana frente al imperialismo ruso."
+
+    } ,
+  
+    {
+
       "title"    : "Dónde y cómo se crean las &#39;islas de sociabilidad&#39;",
       "url"      : "https://entendiendoucrania.com/izquierda/islas-de-sociabilidad",
       "author"  : "Oleksandr Kitral",
-      "category" : "Izquierda, Invasión en 2022",
+      "category" : "Izquierda, Invasión",
       "date"     : "25/09/24",
       "desc" : "Oleksader Kitral aborda el constante apoyo social a personas desplazadas por parte de varios responsables administrativos de los municipios de Ucrania, y sus esfuerzos para reconstruir sus comunidades durante la guerra."
 
@@ -16,7 +38,7 @@
       "title"    : "¿No hay género en el ejército ucraniano?",
       "url"      : "https://entendiendoucrania.com/feminismo/no-hay-genero-ejercito",
       "author"  : "Oleksandra Sakharuk",
-      "category" : "Feminismo, Invasión en 2022",
+      "category" : "Feminismo, Invasión",
       "date"     : "25/09/24",
       "desc" : "Un análisis sobre la invisibilidad de las mujeres en el ejército ucraniano y los desafíos relacionados con la igualdad de género."
 
@@ -27,7 +49,7 @@
       "title"    : "«Safari humano»: los civiles de Jersón son cazados por drones rusos",
       "url"      : "https://entendiendoucrania.com/crimenes/safari-humano-jerson",
       "author"  : "Zarina Zabrisky",
-      "category" : "Crímenes rusos, Invasión en 2022",
+      "category" : "Crímenes rusos, Invasión",
       "date"     : "02/10/24",
       "desc" : "Las fuerzas rusas usan drones comerciales modificados para atacar a civiles en Jersón, Ucrania, causando bajas y destrucción diaria, forzando evacuaciones y generando terror."
 
@@ -38,7 +60,7 @@
       "title"    : "¿Por qué cerramos nuestro centro para mujeres desplazadas en Lviv?",
       "url"      : "https://vientosur.info/por-que-cerramos-nuestro-centro-para-mujeres-desplazadas-en-lviv/",
       "author"  : "Taller Feminista",
-      "category" : "Feminismo, Invasión en 2022",
+      "category" : "Feminismo, Invasión",
       "date"     : "15/10/2024",
       "desc" : "La ONG de Lviv, Feministychna Maysternia (Taller Feminista) explica las razones detrás del cierre de un centro de apoyo para mujeres desplazadas en Lviv. Destacan la falta de recursos, los retos operativos y las dificultades para mantener servicios vitales en medio de la guerra y hacen hincapié en la importancia de las redes de solidaridad y el agotamiento del equipo que trabajaba con las mujeres afectadas por la invasión rusa."
 
@@ -60,7 +82,7 @@
       "title"    : "Clase y género en la Ucrania en guerra",
       "url"      : "https://vientosur.info/trabajadoras-sociales-en-tiempo-de-guerra/",
       "author"  : "Daria Saburova",
-      "category" : "Izquierda, Invasión en 2022",
+      "category" : "Izquierda, Invasión",
       "date"     : "19/07/24",
       "desc" : "Introducción del libro Trabajadoras de la resistencia de Daria Saburova."
 
@@ -104,7 +126,7 @@
       "title"    : "Las falsedades de la batalla de Járkiv",
       "url"      : "https://entendiendoucrania.com/invasion/falsedades-batalla-jarkiv",
       "author"  : "Antoine Rabadan",
-      "category" : "Invasión en 2022",
+      "category" : "Invasión",
       "date"     : "04/06/24",
       "desc" : "La ofensiva rusa desencadenada el 10 de mayo en la región de Járkiv, en el norte de Ucrania, da mucho que hablar, o más bien ha dado mucho hablar porque, cuando escribo estas líneas (26 de mayo), está bloqueada. Signo que no engaña, los clásicos comunicados triunfalistas sobre este ataque de los propagandistas rusos, repetidos por sus amigos prorusos del mundo entero, son cada vez más raros, hay límites incluso para el torrente de locuras a los que nos acostumbran."
 
@@ -115,7 +137,7 @@
       "title"    : "Ante la visita del presidente Zelensky y los acuerdos con el Gobierno español",
       "url"      : "https://entendiendoucrania.com/invasion/visita-zelensky-acuerdos-gobierno",
       "author"  : "Redes y activistas solidarias con Ucrania de Madrid, Catalunya y Euskadi",
-      "category" : "Invasión en 2022",
+      "category" : "Invasión",
       "date"     : "29/05/24",
       "desc" : "Posición de redes y activistas solidarias con Ucrania de Madrid, Catalunya y Euskadi sobre la visita del presidente de Ucrania Zelensky a España y los acuerdos alcanzados con el Gobierno español."
 
@@ -126,7 +148,7 @@
       "title"    : "¿Qué significa la filtración?",
       "url"      : "https://entendiendoucrania.com/crimenes/que-significa-la-filtracion",
       "author"  : "Evhen Zakharov",
-      "category" : "Crímenes rusos, Invasión en 2022",
+      "category" : "Crímenes rusos, Invasión",
       "date"     : "01/03/24",
       "desc" : "Se describen los procedimientos de filtrado para los ucranianos deportados a la fuerza a Rusia."
 
@@ -137,7 +159,7 @@
       "title"    : "Contexto: horas críticas para Ucrania",
       "url"      : "https://entendiendoucrania.com/invasion/contexto-horas-criticas",
       "author"  : "Comité Belga de la Red Europea de Solidaridad con Ucrania",
-      "category" : "Invasión en 2022",
+      "category" : "Invasión",
       "date"     : "May. 2024",
       "desc" : "Llamiento de líderes sindicales y trabajdores de Kryvyi Rih y de la organización política Sotsialnyi Rukh a los trabajadores y activistas de Europa y el mundo por la defensa de Ucrania y la solidaridad internacional."
 
@@ -148,7 +170,7 @@
       "title"    : "Llamamiento a los trabajadores y activistas de los pueblos de Europa y del mundo",
       "url"      : "https://entendiendoucrania.com/izquierda/llamamiento-trabajadores-activistas",
       "author"  : "Sotsialnyi Rukh",
-      "category" : "Izquierda, Invasión en 2022",
+      "category" : "Izquierda, Invasión",
       "date"     : "18/05/24",
       "desc" : "Llamiento de líderes sindicales y trabajdores de Kryvyi Rih y de la organización política Sotsialnyi Rukh a los trabajadores y activistas de Europa y el mundo por la defensa de Ucrania y la solidaridad internacional."
 
@@ -159,7 +181,7 @@
       "title"    : "¿Por qué es genocidio?",
       "url"      : "https://entendiendoucrania.com/invasion/por-que-es-genocidio",
       "author"  : "Neil A. Abrams",
-      "category" : "Invasión en 2022",
+      "category" : "Invasión",
       "date"     : "11/04/24",
       "desc" : "Rusia ha librado muchas guerras desde 1991. Sólo ésta es genocida. He aquí por qué. Escribe Neil A. Abrams."
 
@@ -170,7 +192,7 @@
       "title"    : "Se pagarán reparaciones a las supervivientes de la violencia sexual cometida durante la invasión rusa de Ucrania",
       "url"      : "https://entendiendoucrania.com/feminismo/reparaciones-supervivientes-violencia-sexual",
       "author"  : "Weronika Strzyżyńska",
-      "category" : "Feminismo, Invasión en 2022",
+      "category" : "Feminismo, Invasión",
       "date"     : "26/04/24",
       "desc" : "Los primeros pagos realizados en un conflicto en curso son “un paso importante hacia el restablecimiento de la justicia”, ha declarado la primera dama, Olena Zelenska."
 
@@ -192,7 +214,7 @@
       "title"    : "Kíiv, primavera 2024: vivir, en tiempos de guerra, la vida por la que se lucha",
       "url"      : "https://entendiendoucrania.com/invasion/vivir-tiempos-de-guerra",
       "author"  : "Chowra Makaremi",
-      "category" : "Invasión en 2022",
+      "category" : "Invasión",
       "date"     : "26/04/24",
       "desc" : "Entrevista a la antropóloga y activista iraní Chowra Makaremi sobre su estancia en Kíiv en la primavera de 2024. Makaremi describe la vida en Ucrania durante el tercer año de guerra y la resiliencia y resistencia de sus ciudadanos."
 
@@ -214,7 +236,7 @@
       "title"    : "Los &#39;héroes&#39; de Putin: de incitar a los niños al suicidio a matar ucranianos y enseñar &#39;patriotismo&#39; en las escuelas rusas",
       "url"      : "https://entendiendoucrania.com/crimenes/prisionero-ruso-invasion",
       "author"  : "Halya Coynash",
-      "category" : "Crímenes rusos, Invasión en 2022",
+      "category" : "Crímenes rusos, Invasión",
       "date"     : "25/04/24",
       "desc" : "Halya Coynash escribe sobre Alexander Glazov, condenado a seis años de prisión por incitar a niños en Rusia al suicido y liberado por las autoridades rusas bajo condición de participar en la invasión de Ucrania con el Grupo Wagner."
 
@@ -225,7 +247,7 @@
       "title"    : "La vida estudiantil ucraniana entre el neoliberalismo y la guerra",
       "url"      : "https://entendiendoucrania.com/izquierda/vida-estudiantil-ucraniana",
       "author"  : "Karina Chmeliuk",
-      "category" : "Izquierda, Invasión en 2022",
+      "category" : "Izquierda, Invasión",
       "date"     : "19/04/24",
       "desc" : "Karina Chmeliuk escribe sobre las dificultades que los estudiantes ucranianos encuentran a causa de la agresión rusa y de la inacción del gobierno ucraniano."
 
@@ -236,7 +258,7 @@
       "title"    : "La confiscación de los activos públicos rusos constituiría un anticipo sobre las reparaciones",
       "url"      : "https://entendiendoucrania.com/invasion/confiscacion-activos-rusos-reparacion",
       "author"  : "Varios Autores",
-      "category" : "Invasión en 2022",
+      "category" : "Invasión",
       "date"     : "16/04/24",
       "desc" : "La confiscación de los activos públicos rusos constituiría un anticipo sobre las reparaciones que tendrá que pagar el agresor en última instancia. Los daños causados por la Federación de Rusia en territorio ucraniano están estimados por el Banco Mundial en casi 450 mil millones de euros, hasta la fecha. Ya es mucho más que los activos rusos congelados."
 
@@ -247,7 +269,7 @@
       "title"    : "«Se trata de luchar por la propia supervivencia»",
       "url"      : "https://entendiendoucrania.com/invasion/luchar-por-la-supervivencia",
       "author"  : "Oleksandr Kyselov",
-      "category" : "Invasión en 2022, Izquierda",
+      "category" : "Invasión, Izquierda",
       "date"     : "13/03/24",
       "desc" : "Entrevista de Piero Maestri y Francesco Brusa a Oleksandr Kyselov que permite comprender mejor la perspectiva de la izquierda sobre lo que está ocurriendo en el interior del país agredido y cuáles pueden ser las futuras relaciones de Ucrania con Europa."
 
@@ -280,7 +302,7 @@
       "title"    : "«Si no fuéramos a combatir, la izquierda dejaría de existir»",
       "url"      : "https://entendiendoucrania.com/izquierda/entrevista-taras-bilous",
       "author"  : "Tarás Bilous | Polina Davydenko | Koluca Dobés",
-      "category" : "Izquierda, Invasión en 2022",
+      "category" : "Izquierda, Invasión",
       "date"     : "13/04/24",
       "desc" : "Entrevista a Tarás Bilous, soldado ucraniano, miembro de la organización de izquierdas Movimiento Social y editor de la revista Commons. La entrevista aborda la actualidad del ejército, el pasado reciente de Ucrania y sus reflexiones sobre la izquierda occidental."
 
@@ -302,7 +324,7 @@
       "title"    : "Cómo Washington transforma las líneas rojas para Ucrania en luz verde para el Kremlin",
       "url"      : "https://entendiendoucrania.com/invasion/washington-lineas-rojas-ucrania",
       "author"  : "Michael Gonchar",
-      "category" : "Invasión en 2022",
+      "category" : "Invasión",
       "date"     : "11/04/24",
       "desc" : "Michael Gonchar, especialista en petróleo y energía, detalla los motivos detrás de la falta de apoyo de Estados Unidos en los ataques estratégicos de Ucrania a las refinerías rusas. Según él, se debe a las presiones de lobbys asociados a ExxonMobil y Chevron chantajeados por Rusia."
 
@@ -324,7 +346,7 @@
       "title"    : "El &#39;putinismo económico&#39; de Suiza",
       "url"      : "https://entendiendoucrania.com/global/el-putinismo-economico-de-suiza",
       "author"  : "Jo Lang",
-      "category" : "Izq. global, Invasión en 2022",
+      "category" : "Izq. global, Invasión",
       "date"     : "24/02/24",
       "desc" : "¿Podría Putin seguir financiando su guerra contra Ucrania sin los miles de millones que debe al comercio suizo de materias primas? Discurso del historiador y ex consejero nacional de los Verdes Jo Lang en la conmemoración del sengundo aniversario de la invasión rusa de Ucrania."
 
@@ -335,7 +357,7 @@
       "title"    : "Rusia lanza ataques masivos para destruir hogares, lugares de trabajo, energía y la economía de Ucrania",
       "url"      : "https://entendiendoucrania.com/invasion/rusia-lanza-ataques-masivos",
       "author"  : "Confederación de Sindicatos Libres de Ucrania (KVPU)",
-      "category" : "Invasión en 2022",
+      "category" : "Invasión",
       "date"     : "24/03/24",
       "desc" : "La Confederación de Organizaciones Sindicales Libres de Ucrania, organización afiliada a la CSI y a la CES, hace un llamamiento a la comunidad sindical internacional y a los gobiernos de los países democráticos para que refuercen su apoyo a Ucrania en un momento en que Rusia está provocando la destrucción a gran escala de edificios residenciales, infraestructuras civiles y energéticas, y destruyendo intencionadamente la economía y los lugares de trabajo."
 
@@ -346,7 +368,7 @@
       "title"    : "Boletín sindical de la RESU",
       "url"      : "https://drive.google.com/file/d/1S8reyPiiJAyDcE-KHOekDl_uoPcT7IbP/view",
       "author"  : "Red Europea de Solidaridad con Ucrania",
-      "category" : "Izquierda, Invasión en 2022",
+      "category" : "Izquierda, Invasión",
       "date"     : "24/02/24",
       "desc" : "Número de marzo de 2024 del boletín sindical de la Red Europea de Solidaridad con Ucrania (RESU). En él nos planteamos preguntas vitales: ¿Está haciendo lo suficiente el movimiento sindical en Europa para apoyar a Ucrania, a sus trabajadores y a sus sindicatos en un momento en que la situación en el frente militar está estancada? ¿Qué más pueden hacer?"
 
@@ -412,7 +434,7 @@
       "title"    : "La resistencia ucraniana y la normalización de la guerra",
       "url"      : "https://www.nuso.org/articulo/la-resistencia-ucraniana-y-la-normalizacion-de-la-guerra/",
       "author"  : "​Viktoriia Pihul​",
-      "category" : "Invasión en 2022, Izquierda",
+      "category" : "Invasión, Izquierda",
       "date"     : "24/02/24",
       "desc" : "La feminista ucraniana Viktoriia Pihul, miembro de Sotsialnyi Rukh explica qué está sucediendo en Ucrania, describe el proceso de normalización de la guerra y analiza cómo la invasión ha transformado la vida de los trabajadores y las trabajadoras de Ucrania."
 
@@ -434,7 +456,7 @@
       "title"    : "¿Guerra o paz? Un falso dilema en la polémica en torno a la cuestión ucraniana",
       "url"      : "https://entendiendoucrania.com/derecho-resistir/guerra-paz-falso-dilema",
       "author"  : "Daria Saburova",
-      "category" : "Derecho a resistir, Invasión en 2022",
+      "category" : "Derecho a resistir, Invasión",
       "date"     : "12/03/24",
       "desc" : "En ausencia de las condiciones para las negociaciones, hablar de un alto el fuego inmediato como la alternativa al apoyo militar, son solo palabras vacías destinadas al público francés en el marco de la campaña electoral. A falta de otras opciones realistas, la solidaridad concreta exige la continuación de la ayuda militar a Ucrania."
 
@@ -467,7 +489,7 @@
       "title"    : "Rusia convierte los territorios ucranianos ocupados en zona militarizada",
       "url"      : "https://vientosur.info/rusia-convierte-los-territorios-ucranianos-ocupados-en-zona-militarizada/",
       "author"  : "Simon Pirani",
-      "category" : "Invasión en 2022, Crímenes rusos",
+      "category" : "Invasión, Crímenes rusos",
       "date"     : "05/01/24",
       "desc" : "Mientras proliferan las instituciones militares, la industria en los territorios ocupados se estanca. Se obliga a jóvenes y mayores a adquirir pasaporte ruso y se infunden dogmas imperiales al alumnado en las escuelas. Se impone el terror contra toda forma de protesta."
 
@@ -489,7 +511,7 @@
       "title"    : "Ucrania: Dignas y en su puesto, historias de tres defensoras en combate",
       "url"      : "https://entendiendoucrania.com/feminismo/historias-tres-defensoras-ucranianas",
       "author"  : "Iryna Yuzyk",
-      "category" : "Feminismo, Invasión en 2022",
+      "category" : "Feminismo, Invasión",
       "date"     : "06/03/24",
       "desc" : "Entrevista a tres defensoras ucranianas: Olena Ryzh, soldado de asalto, Vira Savchenko, zapadora, y Nastia Confederate, operadora de drones. Hablan sobre las razones por las que enlistaron en el ejército, las zonas en las que sirven y las problemas que enfrentan."
 
@@ -522,7 +544,7 @@
       "title"    : "Cómo entender la actitud imperialista de Rusia hacia Ucrania",
       "url"      : "https://entendiendoucrania.com/invasion/como-entender-la-actitud-imperialista-rusa",
       "author"  : "Hanna Perekhoda",
-      "category" : "Invasión en 2022, Imperialismo ruso",
+      "category" : "Invasión, Imperialismo ruso",
       "date"     : "24/02/24",
       "desc" : "La ideología actual del Estado ruso está fuertemente influenciada por el imaginario político nacionalista que tomó forma en el siglo XIX. Sigue basándose en la convicción de que la asimilación de los ucranianos a la &#39;nación rusa&#39; es una necesidad vital para la propia supervivencia del Estado ruso."
 
@@ -555,7 +577,7 @@
       "title"    : "7 conclusiones para un 24 de febrero, el punto de vista de un socialista ucraniano",
       "url"      : "https://entendiendoucrania.com/izquierda/siete-conclusiones-aniversario-guerra",
       "author"  : "Vitaliy Dudin",
-      "category" : "Izquierda, Invasión en 2022",
+      "category" : "Izquierda, Invasión",
       "date"     : "24/02/24",
       "desc" : "Ha transcurrido suficiente tiempo como para que incluso los partidarios del mercado libre estén convencidos de la incapacidad de la economía liberal para responder a los desafíos de la guerra."
 
@@ -588,7 +610,7 @@
       "title"    : "Un mensaje desde Ucrania a quienes viven en democracias",
       "url"      : "https://entendiendoucrania.com/global/mensaje-ucrania-democracia",
       "author"  : "Stas Olenchenko",
-      "category" : "Izq. global, Invasión en 2022",
+      "category" : "Izq. global, Invasión",
       "date"     : "26/10/23",
       "desc" : "Stas Olenchenko advierte sobre la fragilidad de la democracia, destacando el peligro que seguir estableciendo relaciones normales con dictaduras cuyo mayor interés es crear desestabilidad y una involución democrática."
 
@@ -610,7 +632,7 @@
       "title"    : "Ucrania, tercer año",
       "url"      : "https://entendiendoucrania.com/invasion/ucrania-tercer-año",
       "author"  : "Hanna Perekhoda",
-      "category" : "Invasión en 2022, Derecho a resistir",
+      "category" : "Invasión, Derecho a resistir",
       "date"     : "16/02/24",
       "desc" : "La guerra rusa en Ucrania está entrando en su tercer año, y no hay indicios de que Putin haya cambiado su objetivo inicial, es decir, el desmantelamiento total del Estado ucraniano."
 
@@ -621,7 +643,7 @@
       "title"    : "La batalla de Avdiivka",
       "url"      : "https://entendiendoucrania.com/invasion/batalla-avdiivka",
       "author"  : "Antoine Rabadan",
-      "category" : "Invasión en 2022",
+      "category" : "Invasión",
       "date"     : "20/02/24",
       "desc" : "Antoine Rabadan escribe sobre la pírrica victoria rusa en la ciudad de Avdiivka en vísperas de que comience el tercer año de la invasión a gran escala rusa de Ucrania."
 
@@ -643,7 +665,7 @@
       "title"    : "Convocatoria unitaria de los sindicatos franceses para el 24 de febrero de 2024",
       "url"      : "https://entendiendoucrania.com/izquierda/convocatoria-unida-sindicatos-franceses",
       "author"  : "Intersindical francesa",
-      "category" : "Izquierda, Invasión en 2022",
+      "category" : "Izquierda, Invasión",
       "date"     : "12/02/24",
       "desc" : "Comunicado de la intersindical francesa en solidaridad con la resistencia ucraniana frente a la invasión rusa. Los sindicatos CFDT, CGT, FO, CFE-CGC, CFTC, UNSA, Solidaires y FSU llaman a continuar el apoyo a Ucrania y a salir el 24 de febrero de 2024 para exigir la retirada inmediata de las tropas rusas."
 
@@ -665,7 +687,7 @@
       "title"    : "Dos años de guerra, un punto de vista feminista ucraniano",
       "url"      : "https://vientosur.info/dos-anos-de-guerra-un-punto-de-vista-feminista-ucraniano/",
       "author"  : "Taller Feminista",
-      "category" : "Feminismo, Invasión en 2022",
+      "category" : "Feminismo, Invasión",
       "date"     : "06/02/24",
       "desc" : "La percepción del feminismo en Ucrania está cambiando. La sociedad empieza a dejar de considerar a las mujeres activistas a través de estereotipos. Está surgiendo una representación colectiva de mujeres activistas militares, activistas que abren refugios y ayudan a resolver problemas humanitarios y mujeres voluntarias, entre otras."
 
@@ -676,7 +698,7 @@
       "title"    : "Declaración en el segundo aniversario de la invasión rusa de Ucrania",
       "url"      : "https://entendiendoucrania.com/izquierda/declaracion-resu-segundo-aniversario-guerra",
       "author"  : "Red Europea de Solidaridad con Ucrania (RESU)",
-      "category" : "Izquierda, Invasión en 2022",
+      "category" : "Izquierda, Invasión",
       "date"     : "10/02/24",
       "desc" : "¡Paz para Ucrania! ¡Alto a la guerra de Rusia! ¡Alto inmediato a los bombardeos rusos y retirada de todas las tropas rusas de toda Ucrania!"
 
@@ -687,7 +709,7 @@
       "title"    : "Ucrania es un proyecto de izquierdas y antiautoritario",
       "url"      : "https://entendiendoucrania.com/izquierda/ucrania-proyecto-antiautoritario",
       "author"  : "David Chichkan",
-      "category" : "Izquierda, Invasión en 2022",
+      "category" : "Izquierda, Invasión",
       "date"     : "04/02/24",
       "desc" : "Entrevista a David Chichkan artista antiautoritario ucraniano que resalta la importancia de la izquierda, el socialismo y el anarquismo en la concepción de la nación ucraniana."
 
@@ -698,7 +720,7 @@
       "title"    : "El precio de la guerra para las mujeres: nuevos papeles, nuevos retos",
       "url"      : "https://entendiendoucrania.com/feminismo/precio-guerra-mujeres-nuevos-papeles-nuevos-retos",
       "author"  : "Daria Salo",
-      "category" : "Feminismo, Invasión en 2022",
+      "category" : "Feminismo, Invasión",
       "date"     : "07/12/23",
       "desc" : "Marta Havryshko, Weronika Grzebalska y Anwar Mhajne abordan los desafíos que enfrentan las mujeres tanto en la invasión rusa de Ucrania como en la guerra en Gaza así como los nuevos roles que desempeñan en los ejércitos ucraniano y polaco."
 
@@ -709,7 +731,7 @@
       "title"    : "La transformación silenciosa de la Ucrania ocupada",
       "url"      : "https://entendiendoucrania.com/crimenes/la-transformacion-silenciosa-de-la-ucrania-ocupada",
       "author"  : "David Lewis",
-      "category" : "Crímenes rusos, Invasión en 2022",
+      "category" : "Crímenes rusos, Invasión",
       "date"     : "18/01/24",
       "desc" : "Rusia reemplaza y asimila rápidamente a la población ucraniana de los territorios ocupadas. Las viviendas y propiedades que quedan en pie son robadas; el idioma, la educación y todo símbolo ucraniano han sido eliminados, y la población es obligada a aceptar el pasaporte ruso."
 
@@ -731,7 +753,7 @@
       "title"    : "Nuestro sindicato protege a los trabajadores bajo la ley marcial",
       "url"      : "https://entendiendoucrania.com/izquierda/nuestro-sindicato-protege-trabajadores-bajo-ley-marcial",
       "author"  : "Volodymyr Kozelsky",
-      "category" : "Izquierda, Invasión en 2022",
+      "category" : "Izquierda, Invasión",
       "date"     : "12/01/24",
       "desc" : "Volodymyr Kozelsky, presidente de del Sindicato Libre de Ferroviarios de Ucrania (VPZU), escribe sobre cómo la invasión rusa de Ucrania ha impactado en la organización del sindicato y cuales son sus tareas principales."
 
@@ -742,7 +764,7 @@
       "title"    : "«Irme nunca se me pasó por la cabeza». Cómo los médicos han salvado vidas en condiciones inhumanas",
       "url"      : "https://entendiendoucrania.com/izquierda/como-los-medicos-de-ucrania-han-salvado-vidas-en-condiciones-inhumanas",
       "author"  : "Olexandr Kitral",
-      "category" : "Izquierda, Invasión en 2022",
+      "category" : "Izquierda, Invasión",
       "date"     : "14/11/23",
       "desc" : "Olexandr Kitral escribe sobre cómo los médicos de Ucrania siguieron trabajando bajo la ocupación rusa arriesgando sus vidas y como desempeñan una fundamental tarea en Ucrania a pesar de los bajos salarios y la baja financiación de la sanidad pública."
 
@@ -753,7 +775,7 @@
       "title"    : "Nuestro sindicato ha perdido a muchos miembros durante la guerra",
       "url"      : "https://entendiendoucrania.com/izquierda/nuestro-sindicato-ha-perdido-muchos-miembros-durante-la-guerra",
       "author"  : "Volodymyr Fundovnyi",
-      "category" : "Izquierda, Invasión en 2022",
+      "category" : "Izquierda, Invasión",
       "date"     : "06/01/24",
       "desc" : "El sindicato independiente siempre se ha interesado por proteger a sus miembros y sigue haciéndolo. Lo único que se ha añadido es el trabajo con las y los militares, que piden ayuda, y nosotros, las y los sindicalistas, tenemos que hacer todo lo posible para proporcionarla. Este apoyo incluye alimentos, material, coches, etc. LA VICTORIA es la prioridad del sindicato. Y así es como lo haremos."
 
@@ -775,7 +797,7 @@
       "title"    : "Ucrania quiere mantener viva la memoria de las innumerables víctimas de la guerra",
       "url"      : "https://entendiendoucrania.com/invasion/ucrania-quiere-mantener-viva-memoria-innumerables-victimas-guerra",
       "author"  : "Clara Marchaud",
-      "category" : "Invasión en 2022",
+      "category" : "Invasión",
       "date"     : "06/01/24",
       "desc" : "“Queríamos reunir a todas estas personas en un monumento y recoger no solo las circunstancias de su muerte, sus nombres, sus apellidos, sino conservar una memoria viva de cada persona. Humanizar estas historias, porque son personas como tú y como yo”, explica Anastasia Abramets, que ella misma perdió a un antiguo colega que murió en el campo de batalla al comienzo de la invasión. “Mucha gente piensa que el memorial solo habla de muerte, de dolor, pero de hecho también se trata de curación y reconstrucción”."
 
@@ -786,7 +808,7 @@
       "title"    : "La guerra en Ucrania: una agenda para la izquierda",
       "url"      : "https://vientosur.info/la-guerra-en-ucrania-una-agenda-para-la-izquierda/",
       "author"  : "Olexandr Kyselov",
-      "category" : "Izquierda, Invasión en 2022",
+      "category" : "Izquierda, Invasión",
       "date"     : "06/01/24",
       "desc" : "¡La izquierda debe actuar a favor de las y los trabajadores!: las y los campesinos de Kherson que aran la tierra cargada de minas, los maquinistas de Kiev que entregan suministros vitales en trenes destartalados, las enfermeras mal pagadas de Lviv que atienden a las personas enfermas y heridas. Los mineros rusoparlantes de Kryvyi Rih que luchan por proteger su ciudad natal. Los obreros de la construcción de Mykolaiv que retiran los peligrosos escombros para reconstruir, pero que luchan por alimentar a sus familias. Apoyad a la mayoría invisible, cuyas voces apenas se oyen, pero que no tienen adónde ir."
 
@@ -797,7 +819,7 @@
       "title"    : "Por qué no es sólo la guerra de Putin: la responsabilidad colectiva de los rusos",
       "url"      : "https://conucrania.com/2024/01/10/por-que-no-es-solo-la-guerra-de-putin-la-responsabilidad-colectiva-de-los-rusos/",
       "author"  : "Lesia Ogryzko",
-      "category" : "Imperialismo ruso, Invasión en 2022",
+      "category" : "Imperialismo ruso, Invasión",
       "date"     : "07/08/23",
       "desc" : "Putin es un reflejo y una creación de la sociedad, la visión del mundo y las creencias populares de Rusia, y no al revés. No cuestionar la mentalidad imperialista y chovinista profundamente arraigada en la sociedad rusa es peligroso. Se corre el riesgo de posponer la finalización de la guerra y de prolongar la inestabilidad del sistema internacional."
 
@@ -819,7 +841,7 @@
       "title"    : "África y la guerra en Ucrania: dinero ruso, Grupo Wagner y solidaridad de base",
       "url"      : "https://entendiendoucrania.com/global/africa-guerra-ucrania-dinero-ruso-grupo-wagner-solidaridad-base",
       "author"  : "Vladyslav Starodubtsev",
-      "category" : "Izq. global, Invasión en 2022",
+      "category" : "Izq. global, Invasión",
       "date"     : "31/05/23",
       "desc" : "Los activistas africanos se suman a las iniciativas de solidaridad con la resistencia ucraniana y comentan la situación real. Por ejemplo, establecen paralelismos entre la lucha de liberación de los países africanos contra los colonizadores y la resistencia de la sociedad ucraniana ante la invasión rusa."
 
@@ -830,7 +852,7 @@
       "title"    : "Llamamiento de la Confederación de Sindicatos Libres de Ucrania",
       "url"      : "https://entendiendoucrania.com/izquierda/llamamiento-de-la-confederacion-de-sindicatos-libres-de-ucrania",
       "author"  : "Mykhaïlo Volynets",
-      "category" : "Izquierda, Invasión en 2022",
+      "category" : "Izquierda, Invasión",
       "date"     : "03/01/24",
       "desc" : "El nuevo año 2024 en Ucrania comenzó con horribles ataques masivos de misiles rusos contra las ciudades pacíficas y dormidas de Ucrania. En total, solo durante las vacaciones del 29 de diciembre de 2023 al 2 de enero de 2024, las fuerzas rusas mataron a 90 civiles en ataques de misiles."
 
@@ -863,7 +885,7 @@
       "title"    : "Las ucranianas luchan contra la escalada de la violencia sexista en el contexto de la guerra",
       "url"      : "feminismo/ucranianas-luchan-escalada-violencia-sexista-contexto-guerra",
       "author"  : "Daria Shulzhenko",
-      "category" : "Feminismo, Invasión en 2022",
+      "category" : "Feminismo, Invasión",
       "date"     : "05/12/23",
       "desc" : "La responsable del grupo, Iryna Dovhan, fue torturada en público. Las fotos de ella atada a un poste y golpeada en una calle de Donetsk horrorizaron al mundo en 2014."
 
@@ -874,7 +896,7 @@
       "title"    : "Rusia lanza el mayor ataque contra Ucrania con 158 misiles y drones",
       "url"      : "https://entendiendoucrania.com/invasion/rusia-lanza-el-mayor-ataque-contra-ucrania",
       "author"  : "Ukraine Explainers",
-      "category" : "Invasión en 2022",
+      "category" : "Invasión",
       "date"     : "29/12/23",
       "desc" : "Como indica un reciente informe del NAZK, &#39;casi tres cuartas partes de los aproximadamente 2.500 componentes extranjeros encontrados en armamento ruso y analizados por las autoridades ucranianas fueron fabricados por productores estadounidenses&#39;."
 
@@ -885,7 +907,7 @@
       "title"    : "Resistir al derrotismo a pesar de las dificultades",
       "url"      : "https://entendiendoucrania.com/global/resistir-al-derrotismo-a-pesar-de-las-dificultades",
       "author"  : "Antoine Rabadan",
-      "category" : "Invasión en 2022",
+      "category" : "Invasión",
       "date"     : "15/12/23",
       "desc" : "Como la línea del frente se mueve muy poco, las informaciones en los medios se hacen raras o “derrotistas” sobre el tema. A continuación mostramos lo que dicen los ucranianos, confirmado por las geolocalizaciones, sobre el principal foco de los combates, en torno a la ciudad de Avdiivka, cerca de Donetsk, en el norte."
 
@@ -918,7 +940,7 @@
       "title"    : "Las personas trans en Ucrania durante la guerra a gran escala",
       "url"      : "https://entendiendoucrania.com/movimiento_lgbt/las-personas-trans-en-ucrania-durante-la-guerra-a-gran-escala",
       "author"  : "Edward Rees",
-      "category" : "Movimiento LGBT+, Invasión en 2022",
+      "category" : "Movimiento LGBT+, Invasión",
       "date"     : "21/10/23",
       "desc" : "La comunidad trans ucraniana, por supuesto, busca ante todo la victoria sobre Rusia. Además del deseo común de todos los ucranianos de detener al violento vecino colonizador, las personas trans tienen una actitud doblemente negativa hacia Rusia. El &#39;mundo ruso&#39; utiliza la identidad de género como uno de los principales factores de miedo. El presidente de Rusia suele intimidar a los rusos con la imagen de personas transgénero (&#39;transformistas&#39;, en sus palabras) para ponerlos en contra de Ucrania y del llamado &#39;Occidente colectivo&#39;."
 
@@ -929,7 +951,7 @@
       "title"    : "Noticias de Mariúpol: cómo vive la ciudad ocupada",
       "url"      : "https://ukrainer.net/es-mariupol-news/",
       "author"  : "Iryna Tsejosh",
-      "category" : "Invasión en 2022, Crímenes rusos",
+      "category" : "Invasión, Crímenes rusos",
       "date"     : "17/05/23",
       "desc" : "Los constructores de Moscú y San Petersburgo ahora llegan y, a cambio de sobornos, clasifican edificios enteros como peligrosos, para demolerlos y comenzar en primavera una nueva construcción en su lugar. Rusia no ha traído más que destrucción global a la ciudad de Mariúpol. Destrucción, muerte y ruinas: esta es toda la realidad de Mariúpol bajo la ocupación"
 
@@ -962,7 +984,7 @@
       "title"    : "Maksym Butkevych en una colonia penitenciaria en el territorio ocupado de Luhansk",
       "url"      : "https://entendiendoucrania.com/crimenes/maksim-butkevich-colonia-penitenciaria-territorio-ocupado-luhansk",
       "author"  : "",
-      "category" : "Crímenes rusos, Invasión en 2022",
+      "category" : "Crímenes rusos, Invasión",
       "date"     : "05/12/23",
       "desc" : "El activista ucraniano de derechos humanos Maxim Butkevich se encuentra en la colonia penitenciaria en el territorio ocupado de Luhansk. Los familiares no pudieron encontrarlo durante varios meses."
 
@@ -1050,7 +1072,7 @@
       "title"    : "La ferocidad antisocial de los neoliberales",
       "url"      : "https://vientosur.info/la-ferocidad-antisocial-de-los-neoliberales/",
       "author"  : "Olena Slobodien",
-      "category" : "Izquierda, Invasión en 2022",
+      "category" : "Izquierda, Invasión",
       "date"     : "05/10/23",
       "desc" : "Las palabras de Zholnovich sobre la “zona de confort” indignaron particularmente a las y los ucranianos. Los críticos se preguntan con razón quién, entre los habitantes de Ucrania, se encuentra en una zona de confort después de más de un año y medio de guerra a gran escala y varias décadas de política social sub-financiada."
 
@@ -1061,7 +1083,7 @@
       "title"    : "El papel de las mujeres soldado en Ucrania crece y se abre camino contra los estereotipos",
       "url"      : "https://www.infobae.com/america/agencias/2023/10/10/el-papel-de-las-mujeres-soldado-en-ucrania-crece-y-se-abre-camino-contra-los-estereotipos/",
       "author"  : "Rotyslav Averchuk",
-      "category" : "Feminismo, Invasión en 2022",
+      "category" : "Feminismo, Invasión",
       "date"     : "08/11/23",
       "desc" : "«Las mujeres ucranianas quieren ser parte del Ejército. Porque no es solo el hogar de los hombres, también es nuestro hogar, son nuestros hijos y es nuestro país», subraya Pryimak de treinta años. Aunque mucho tiene que avanzar el Ejército cuando se trata de la mejora profesional basada en el mérito y de la protección de los soldados, durante los últimos años ha habido cambios «grandes»."
 
@@ -1160,7 +1182,7 @@
       "title"    : "La desocupación de Crimea: los tártaros de Crimea y el camino hacia la descolonización",
       "url"      : "https://entendiendoucrania.com/crimea/shynkarenko_2",
       "author"  : "Mariia Shynkarenko",
-      "category" : "Crimea, Invasión en 2022",
+      "category" : "Crimea, Invasión",
       "date"     : "18/05/23",
       "desc" : "La principal tarea de los ucranianos es dar prioridad a las voces de los tártaros de Crimea, mostrar atención y respeto a las personas, que hoy permanecen codo con codo con nosotros. Al fin y al cabo, la única manera de que Crimea sea igualitaria y justa es mediante la inclusión de voces anteriormente excluidas y oprimidas."
 
@@ -1237,7 +1259,7 @@
       "title"    : "Entrevista con Oleksandr Butkevych, el padre de Maksym Butkevych",
       "url"      : "https://entendiendoucrania.com/crimenes/o-butkevych_1",
       "author"  : "Brigadas Editoriales de Solidaridad",
-      "category" : "Crímenes rusos, Invasión en 2022",
+      "category" : "Crímenes rusos, Invasión",
       "date"     : "Ago. 2023",
       "desc" : "Debemos trabajar juntos para obligar a Rusia a respetar y aplicar la Convención de Ginebra sobre el trato a las y los prisioneros de guerra. La solidaridad internacional es absolutamente necesaria para evitar que Maksym sea olvidado. Hay que seguir lo que le pasa y seguir exigiendo su liberación."
 
@@ -1248,7 +1270,7 @@
       "title"    : "Un antimilitarista en la guerra",
       "url"      : "https://entendiendoucrania.com/crimenes/cf-resu_2",
       "author"  : "Comité Francés de la Red Europea de Solidaridad con Ucrania",
-      "category" : "Crímenes rusos, Invasión en 2022",
+      "category" : "Crímenes rusos, Invasión",
       "date"     : "13/03/23",
       "desc" : "Internacionalista, antimilitarista y hostil a la guerra y a la militarización de la sociedad, &#39;Maks&#39; no dudó ni un segundo ante la invasión del imperialismo ruso: se unió a la resistencia ucraniana ofreciéndose voluntario el mismo día del ataque para &#39;proteger todo lo que importa, la gente de nuestro país y nuestras libertades&#39;."
 
@@ -1270,7 +1292,7 @@
       "title"    : "Anarquistas luchando junto al Estado",
       "url"      : "https://entendiendoucrania.com/anarquismo/s-movchan_1",
       "author"  : "Serhii Movchan",
-      "category" : "Anarquismo, Invasión en 2022, Derecho a resistir",
+      "category" : "Anarquismo, Invasión, Derecho a resistir",
       "date"     : "20/08/23",
       "desc" : "Los Solidarity Collectives están siendo atacados desde varios flancos. La principal amenaza es la invasión rusa. Hay un renacimiento conservador en Ucrania provocado por la invasión. Y luego está la crítica occidental, porque no encajamos en su idea de los anarquistas buenos. Por desgracia, no tenemos la oportunidad de ser los anarquistas de un libro con  dibujos. No queremos daros lecciones, pero nuestra realidad es diferente a la vuestra."
 
@@ -1281,7 +1303,7 @@
       "title"    : "Maksym Butkevych: Antimilitarista, defensor de los derechos de migrantes y de la democracia, en la guerra",
       "url"      : "https://vientosur.info/maksym-butkevych-antimilitarista-defensor-de-los-derechos-de-migrantes-y-de-la-democracia-en-la-guerra/",
       "author"  : "Maksym Butkevych",
-      "category" : "Invasión en 2022, Derecho a resistir",
+      "category" : "Invasión, Derecho a resistir",
       "date"     : "30/09/23",
       "desc" : "Espero que la guerra no nos haga tan crueles como para relegar los derechos humanos a un segundo o tercer plano en la agenda. Es precisamente por esta razón por la que vamos a la guerra, para preservar la posibilidad de aplicar los valores que defendemos y que nos distinguen del agresor."
 
@@ -1292,7 +1314,7 @@
       "title"    : "Mariúpol: crónica de verano de una ciudad ocupada",
       "url"      : "https://entendiendoucrania.com/crimenes/mariupol_1",
       "author"  : "Consejo de Mariúpol en el exilio",
-      "category" : "Crímenes rusos, Invasión en 2022",
+      "category" : "Crímenes rusos, Invasión",
       "date"     : "18/09/22",
       "desc" : "En la ciudad temporalmente ocupada, decidieron revivir no sólo las festividades soviéticas y los monumentos a Lenin, sino también el Komsomol. Aparecieron mensajes llamando a los residentes a unirse a la Unión Comunista Leninista de la Juventud. Una vez más, los ocupantes han demostrado que quieren devolver Mariúpol al pasado. Ya son dos las veces que los habitantes de la ciudad han escupido sobre el busto del &quot;líder de la revolución mundial&quot;."
 
@@ -1336,7 +1358,7 @@
       "title"    : "No, Occidente no detuvo las conversaciones de paz de Ucrania con Rusia",
       "url"      : "https://entendiendoucrania.com/invasion/artiukh-fedirko_1",
       "author"  : "Volodímir Artiukh y Tarás Fedirko",
-      "category" : "Invasión en 2022, Izquierda",
+      "category" : "Invasión, Izquierda",
       "date"     : "17/10/22",
       "desc" : "Los negociadores rusos eran políticos de bajo rango que carecían de autoridad para firmar acuerdos o mantener una línea directa con Putin, lo cual constituía una señal para el equipo negociador ucraniano. Similar a los acuerdos de Minsk en los años previos a la invasión y a las &quot;garantías de seguridad&quot; de diciembre, el enfoque de Rusia en las negociaciones de marzo probablemente no era genuino."
 
@@ -1347,7 +1369,7 @@
       "title"    : "Sobre las negociaciones de primavera, Boris Johnson y los acuerdos de Minsk",
       "url"      : "https://entendiendoucrania.com/invasion/bilous_5",
       "author"  : "Tarás Bilous",
-      "category" : "Invasión en 2022",
+      "category" : "Invasión",
       "date"     : "01/09/22",
       "desc" : "La visita de Boris Johnson en abril influyó mucho en las negociaciones. Pero aquellos que escriben que Johnson interrumpió las negociaciones entre Zelensky y Putin distorsionan la información disponible para nosotros e ignoran otros eventos que influyeron en la posición de Zelensky."
 
@@ -1413,7 +1435,7 @@
       "title"    : "Grafitis de los crímenes de guerra rusos",
       "url"      : "https://orientemedio.net/wall-evidence-grafitis-de-los-crimenes-de-guerra-rusos/",
       "author"  : "Wall Evidence",
-      "category" : "Crímenes rusos, Invasión en 2022",
+      "category" : "Crímenes rusos, Invasión",
       "date"     : "12/08/23",
       "desc" : "Dos de las inscripciones más llamativas que hemos encontrado fueron «No se considera un crimen de guerra si te diviertes» y «Quemaré pueblos extranjeros con una sonrisa alegre», en Velyka Komyshuvakha, región de Kharkiv. Son citas de la cultura popular rusa. La primera es un meme de Internet, y la segunda es de la letra de una canción. No es una opinión de un soldado, sino parte de la cultura rusa compartida por muchos."
 
@@ -1435,7 +1457,7 @@
       "title"    : "Los estudiantes ucranianos deben tener derecho a la educación incluso en tiempos de guerra",
       "url"      : "https://laboursolidarity.org/n/2581/entrevista-con-artem-klepach-del-movimiento-students-ua",
       "author"  : "Artem Klepach",
-      "category" : "Izquierda, Invasión en 2022",
+      "category" : "Izquierda, Invasión",
       "date"     : "01/03/23",
       "desc" : "Desde el comienzo de la guerra y la ley marcial, los estudiantes que estudian en universidades extranjeras no pueden regresar a Ucrania porque corren el riesgo de no poder salir del país para reanudar sus estudios. Otros, que ya estaban estudiando en el extrajero, no pueden salir de Ucrania para volver a sus universidades. El movimiento Students UA fue fundado para protestar contra esta situación."
 
@@ -1479,7 +1501,7 @@
       "title"    : "Un arma de guerra: la violencia sexual de los militares rusos durante la invasión de Ucrania",
       "url"      : "http://entendiendoucrania.com/crimenes/havryshko_1",
       "author"  : "Marta Havryshko",
-      "category" : "Crímenes rusos, Feminismo, Invasión en 2022",
+      "category" : "Crímenes rusos, Feminismo, Invasión",
       "date"     : "27/02/23",
       "desc" : "Marta Havryshko describe la sistemicidad y escala de la violencia sexual perpetrada por el ejército ruso en Ucrania."
 
@@ -1512,7 +1534,7 @@
       "title"    : "Seis gatos, treinta personas y cuatro proyectiles de mortero. Dos semanas en el suburbio ocupado de Kíiv",
       "url"      : "http://entendiendoucrania.com/crimenes/osievsky_1",
       "author"  : "Evheny Osievsky",
-      "category" : "Invasión en 2022, Crímenes rusos",
+      "category" : "Invasión, Crímenes rusos",
       "date"     : "29/03/22",
       "desc" : "Evheny Osievsky narra su experiencia en Vorzel durante dos semanas bajo la ocupación rusa."
 
@@ -1578,7 +1600,7 @@
       "title"    : "Ucrania, Palestina e Internacionalismo",
       "url"      : "https://vientosur.info/ucrania-palestina-e-internacionalismo/",
       "author"  : "Vladyslav Starodubstev",
-      "category" : "Izquierda, Invasión en 2022",
+      "category" : "Izquierda, Invasión",
       "date"     : "13/04/23",
       "desc" : "Apoyamos al actual gobierno en términos de unidad militar y diplomática para la victoria en la guerra. Pero lo criticamos fuertemente en la mayoría de las otras áreas, especialmente en sus políticas internas neoliberales, que perturban la unidad en el esfuerzo de guerra. Fracturan nuestra sociedad, provocan inestabilidad social y aumentan la pobreza. Nos oponemos a ellas enérgicamente."
 
@@ -1589,7 +1611,7 @@
       "title"    : "Testimonio de un superviviente del sitio de Mariúpol",
       "url"      : "https://entendiendoucrania.com/crimenes/anton_1",
       "author"  : "Anton alias Gunship Mark II",
-      "category" : "Crímenes rusos, Invasión en 2022",
+      "category" : "Crímenes rusos, Invasión",
       "date"     : "16/06/22",
       "desc" : "Narra la experiencia sufrida por el propio autor en el sitio de Mariúpol, ciudad completamente arrasada durante los primeros meses de guerra."
 
@@ -1600,7 +1622,7 @@
       "title"    : "La crisis de hegemonía, el imperialismo y los desafíos de la seguridad global",
       "url"      : "https://entendiendoucrania.com/izquierda/shumakov_1",
       "author"  : "Maksym Shumakov",
-      "category" : "Izquierda, Invasión en 2022",
+      "category" : "Izquierda, Invasión",
       "date"     : "07/02/23",
       "desc" : "Shumakov aúna las ideas discutidas en la conferencia Feuerbach 11 donde se debatieron los desafíos de seguridad y las perspectivas para abordarlos desde posiciones de izquierda."
 
@@ -1611,7 +1633,7 @@
       "title"    : "Solidaridad feminista internacional con Ucrania para una reconstrucción inclusiva y justa",
       "url"      : "https://entendiendoucrania.com/feminismo/gheorghiev_1",
       "author"  : "Olga Gheorghiev",
-      "category" : "Feminismo, Invasión en 2022",
+      "category" : "Feminismo, Invasión",
       "date"     : "31/01/23",
       "desc" : "Gheorghiev hilas las ideas expresadas por panelistas ucranianas y checas en un debate sobre las perspectivas de género en la reconstrucción de Ucrania y la acogida de las refugiadas ucranianas."
 
@@ -1622,7 +1644,7 @@
       "title"    : "Resistir a la invasión y oponerse a las políticas neoliberales",
       "url"      : "http://www.trasversales.net/t62alonaentre.htm",
       "author"  : "Alona Liasheva",
-      "category" : "Derecho a resistir, Izquierda, Invasión en 2022",
+      "category" : "Derecho a resistir, Izquierda, Invasión",
       "date"     : "24/02/23",
       "desc" : "Llegados a este punto, negociar con Putin sería el colmo de la ingenuidad. Sería pegarte un tiro en el pie."
 
@@ -1633,7 +1655,7 @@
       "title"    : "¿Qué está mal con la visión occidental de la comunidad LGBT+ ucraniana durante la guerra?",
       "url"      : "https://entendiendoucrania.com/derecho_resistir/iryskina_1",
       "author"  : "Inna Iryskina",
-      "category" : "Derecho a resistir, Movimiento LGBT+, Invasión en 2022",
+      "category" : "Derecho a resistir, Movimiento LGBT+, Invasión",
       "date"     : "04/07/22",
       "desc" : "Muy pronto las preguntas habituales empezaron a ser del tipo: &#39;¿Tal vez conozcas a una persona trans que haya tenido o tenga problemas al cruzar la frontera ucraniana?&#39; En los medios de comunicación occidentales empezaron a aparecer artículos que hablaban del destino de la comunidad trans ucraniana a través de la experiencia de sus miembros."
 
@@ -1644,7 +1666,7 @@
       "title"    : "El problema de la política internacional feminista: una mirada desde Ucrania",
       "url"      : "https://entendiendoucrania.com/derecho_resistir/zlobina_1",
       "author"  : "Tamara Zlobina",
-      "category" : "Derecho a resistir, Feminismo, Invasión en 2022",
+      "category" : "Derecho a resistir, Feminismo, Invasión",
       "date"     : "Jun. 2022",
       "desc" : "Tamara Zlobina describe los prejuicios de las feministas occidentales al hablar de la guerra de Ucrania."
 
@@ -1655,7 +1677,7 @@
       "title"    : "Experiencias que no deberían repetirse: la superviviencia en Ucrania",
       "url"      : "http://www.trasversales.net/t61alona.htm",
       "author"  : "Alona Liasheva",
-      "category" : "Invasión en 2022, Crímenes rusos",
+      "category" : "Invasión, Crímenes rusos",
       "date"     : "01/03/23",
       "desc" : "Las personas protagonistas son muy diferentes entre sí: diferentes trabajos y diferentes idiomas; han encarado la invasión a gran escala en los territorios controlados por Ucrania o en los controlados por Rusia; han votado por diferentes candidatos presidenciales, explican la invasión de manera diferente y sus opiniones sobre las autoridades ucranianas también difieren. Les une que están reinventando sus vidas, arruinadas por la guerra, bajo nuevas condiciones."
 
@@ -1666,7 +1688,7 @@
       "title"    : "Las transformaciones lingüísticas de Ucrania tras la guerra",
       "url"      : "https://orientemedio.net/las-transformaciones-linguisticas-de-ucrania-tras-la-guerra/",
       "author"  : "Volodymyr Kulyk",
-      "category" : "Imperialismo ruso, Historia, Invasión en 2022",
+      "category" : "Imperialismo ruso, Historia, Invasión",
       "date"     : "24/02/23",
       "desc" : "Desde el primer día de la invasión en toda regla en febrero de 2022, estaba claro que Rusia estaba atacando a todos los ciudadanos ucranianos, independientemente de su origen étnico y preferencias lingüísticas."
 
@@ -1688,7 +1710,7 @@
       "title"    : "“Hay esperanza de que la guerra en Ucrania termine con una paz justa”",
       "url"      : "https://www.eldiario.es/internacional/serhii-plokhy-historiador-hay-esperanza-guerra-ucrania-termine-paz-justa_128_9972201.html",
       "author"  : "Serhii Plokhy",
-      "category" : "Derecho a resistir, Historia, Invasión en 2022",
+      "category" : "Derecho a resistir, Historia, Invasión",
       "date"     : "22/02/23",
       "desc" : "El profesor y director del Instituto Ucraniano de Investigación de la Universidad de Harvard lleva décadas escribiendo sobre la historia de Ucrania, la guerra fría y la caída de la Unión Soviética. Ahora cree que los historiadores tienen un papel esencial para entender el presente e influir en el futuro"
 
@@ -1710,7 +1732,7 @@
       "title"    : "“Los rusos usan la violación como arma porque provoca vergüenza”",
       "url"      : "https://elpais.com/ideas/2023-02-15/oleksandra-matviichuk-premio-nobel-de-la-paz-los-rusos-usan-la-violacion-como-arma-porque-provoca-verguenza.html?rel=buscador_noticias",
       "author"  : "Oleksandra Matviichuk",
-      "category" : "Invasión en 2022, Crímenes rusos",
+      "category" : "Invasión, Crímenes rusos",
       "date"     : "15/02/23",
       "desc" : "La activista ucrania documenta los crímenes de guerra rusos con el objetivo de llevar a Putin y a su entorno ante un tribunal internacional"
 
@@ -1732,7 +1754,7 @@
       "title"    : "Camino del fascismo",
       "url"      : "https://vientosur.info/camino-del-fascismo/",
       "author"  : "Zakhar Popovych",
-      "category" : "Derecho a resistir, Izquierda, Invasión en 2022",
+      "category" : "Derecho a resistir, Izquierda, Invasión",
       "date"     : "12/01/23",
       "desc" : "La guerra en Ucrania degenera cada vez más en una masacre, pero es posible que lo peor esté por venir. Los asesinatos masivos de prisioneros y civiles y las numerosas violaciones sistemáticas en los territorios ocupados por Rusia son ahora noticias normales procedentes de Ucrania."
 
@@ -1743,7 +1765,7 @@
       "title"    : "La patronal aprovecha la guerra para atacar los derechos de la clase trabajadora",
       "url"      : "https://www.sinpermiso.info/textos/ucrania-la-patronal-aprovecha-la-guerra-para-atacar-a-los-trabajadores-entrevista",
       "author"  : "Yuri Samoilov",
-      "category" : "Izquierda, Invasión en 2022",
+      "category" : "Izquierda, Invasión",
       "date"     : "26/12/22",
       "desc" : "La industria está operando con cerca de 30% de su capacidad. Algunos trabajadores están de licencia. Donde estamos presentes como sindicato, esto se hace de manera muy civilizada, donde no estamos, la gente simplemente es expulsada sin recibir su salario."
 
@@ -1754,7 +1776,7 @@
       "title"    : "La visión de izquierda sobre las perspectivas de negociaciones de paz",
       "url"      : "http://www.trasversales.net/t61negpaz.htm",
       "author"  : "Denys Bondar y Zakhar Popovych",
-      "category" : "Derecho a resistir, Izquierda, Invasión en 2022",
+      "category" : "Derecho a resistir, Izquierda, Invasión",
       "date"     : "12/12/22",
       "desc" : "De facto, los rusos están &#39;ofreciendo negociaciones&#39; solo para retrasar la contraofensiva ucraniana hasta que puedan reconstituir sus fuerzas, por lo que no parece que esas &#39;propuestas&#39; debierán despertar el interés de Ucrania."
 
@@ -1765,7 +1787,7 @@
       "title"    : "La invasión de Ucrania, Putin y el «mundo ruso»",
       "url"      : "https://nuso.org/articulo/ucrania-putin-rusia-invasion-perekhoda/",
       "author"  : "Hanna Perekhoda",
-      "category" : "Imperialismo ruso, Historia, Invasión en 2022",
+      "category" : "Imperialismo ruso, Historia, Invasión",
       "date"     : "Nov. 2022",
       "desc" : "En esta entrevista, Hanna Perekhoda, analiza los argumentos de Putin para la agresión a Ucrania, explica la diferencia entre la idea de un mundo ruso y la existencia de rusoparlantes e indaga en las características de la región de Dombás antes y después de la invasión."
 
@@ -1809,7 +1831,7 @@
       "title"    : "La izquierda mundial ante el abismo de la escalada imperialista",
       "url"      : "http://www.trasversales.net/t61vitold.htm",
       "author"  : "Vitold Vasiletskyi",
-      "category" : "Derecho a resistir, Izquierda, Invasión en 2022",
+      "category" : "Derecho a resistir, Izquierda, Invasión",
       "date"     : "06/09/22",
       "desc" : "Es vital apoyar a Ucrania en esta guerra y buscar lo antes posible la derrota, o al menos el debilitamiento, del régimen antiucraniano y, me atrevo a decir, antirruso de Putin."
 
@@ -1820,7 +1842,7 @@
       "title"    : "Diez terribles argumentos de la izquierda contra la resistencia ucraniana",
       "url"      : "https://orientemedio.net/10-terribles-argumentos-de-la-izquierda-contra-la-resistencia-ucraniana/",
       "author"  : "Oksana Dutchak",
-      "category" : "Derecho a resistir, Izquierda, Invasión en 2022",
+      "category" : "Derecho a resistir, Izquierda, Invasión",
       "date"     : "20/07/22",
       "desc" : "&#39;Rusia y Ucrania deben negociar&#39; Esta afirmación tiene muchas variaciones ocultas, que dependen de las proposiciones de un acuerdo de paz que esas personas expresan. Dependiendo de estas proposiciones, el mensaje no expresado puede ser: &#39;1) Ucrania debería capitular o 2) estamos separados de la realidad y pensamos que nuestras proposiciones relativamente razonables de un acuerdo de paz son realistas ahora&#39;."
 
@@ -1831,7 +1853,7 @@
       "title"    : "Mapa de identidades en tiempos de guerra: ¿tesis-antítesis-síntesis?",
       "url"      : "https://vientosur.info/mapa-de-identidades-en-tiempos-de-guerra-tesis-antitesis-sintesis/",
       "author"  : "Denys Gorbach",
-      "category" : "Historia, Izquierda, Invasión en 2022",
+      "category" : "Historia, Izquierda, Invasión",
       "date"     : "24/06/22",
       "desc" : "La heterogeneidad lingüística y cultural de Ucrania es un hecho conocido, que se ha usado y del que se ha abusado en explicaciones sobre la guerra actual. Habiendo echado raíces al comienzo de la edad moderna en los intersticios disputados por tres imperios –el polaco, el otomano y el ruso–, la nación ucraniana se formó, en efecto, mediante procesos demográficos que han dejado en su estela una compleja composición multiétnica con diversos legados."
 
@@ -1853,7 +1875,7 @@
       "title"    : "Una guerra incómoda: ¿qué hacer cuando Rusia ataca a Ucrania y tú eres de izquierdas?",
       "url"      : "https://entendiendoucrania.com/derecho_resistir/gorbach_1.html",
       "author"  : "Denys Gorbach",
-      "category" : "Derecho a resistir, Izquierda, Invasión en 2022",
+      "category" : "Derecho a resistir, Izquierda, Invasión",
       "date"     : "24/03/22",
       "desc" : "Reforzando los estereotipos implantados por la derecha ucraniana, la izquierda occidental ayuda a silenciar cualquier iniciativa progresista y amplifica el mensaje de los nacionalistas."
 
@@ -1864,7 +1886,7 @@
       "title"    : "La guerra en Ucrania, la seguridad internacional y la izquierda",
       "url"      : "http://www.trasversales.net/t58taras.htm",
       "author"  : "Tarás Bilous",
-      "category" : "Derecho a resistir, Izquierda, Invasión en 2022",
+      "category" : "Derecho a resistir, Izquierda, Invasión",
       "date"     : "24/05/22",
       "desc" : "El Kremlin decidió, en contra de los deseos del pueblo de Ucrania, negociar el futuro de Ucrania con aquellos a quienes consideraba los amos del poder."
 
@@ -1875,7 +1897,7 @@
       "title"    : "La autodeterminación y la guerra en Ucrania",
       "url"      : "https://www.elsaltodiario.com/opinion/autodeterminacionla-guerra-ucrania",
       "author"  : "Tarás Bilous",
-      "category" : "Derecho a resistir, Izquierda, Invasión en 2022",
+      "category" : "Derecho a resistir, Izquierda, Invasión",
       "date"     : "04/05/22",
       "desc" : "No podemos saber cómo se desarrollará Ucrania después de la guerra. Pero sabemos que habrá horribles consecuencias si Rusia gana."
 
@@ -1897,7 +1919,7 @@
       "title"    : "Ucrania y la lucha contra la invasión",
       "url"      : "https://nuso.org/articulo/ucrania-rusia-guerra/",
       "author"  : "Vitaliy Dudin",
-      "category" : "Derecho a resistir, Izquierda, Invasión en 2022",
+      "category" : "Derecho a resistir, Izquierda, Invasión",
       "date"     : "06/04/22",
       "desc" : "Vitaliy Dudin habla sobre la crítica coyuntura ucraniana y el papel de la izquierda en la lucha contra la invasión rusa."
 
@@ -1908,7 +1930,7 @@
       "title"    : "La guerra en Ucrania y los dilemas de la izquierda occidental",
       "url"      : "https://vientosur.info/la-guerra-en-ucrania-y-los-dilemas-de-la-izquierda-occidental/",
       "author"  : "Daria Saburova",
-      "category" : "Derecho a resistir, Izquierda, Invasión en 2022",
+      "category" : "Derecho a resistir, Izquierda, Invasión",
       "date"     : "17/03/22",
       "desc" : "Si Kíiv, Járkiv, Mariúpol y otras ciudades resisten al ejército ruso, a pesar de que éste tiene una clara ventaja militar, es porque, ante esta invasión se ha levantado una vasta movilización popular que va mucho más allá del aparato estatal, incluso en las ciudades rusófilas que deberían, según la lógica, tanto de Putin como de cierta izquierda occidental, recibir con los brazos abiertos al ejército de liberación."
 
@@ -1919,7 +1941,7 @@
       "title"    : "El derecho a resistir: un manifiesto feminista",
       "url"      : "http://www.trasversales.net/t59femucra.htm",
       "author"  : "Feministas de Ucrania",
-      "category" : "Derecho a resistir, Feminismo, Invasión en 2022",
+      "category" : "Derecho a resistir, Feminismo, Invasión",
       "date"     : "21/03/22",
       "desc" : "Nosotras, feministas de Ucrania, llamamos a las feministas de todo el mundo a solidarizarse con el movimiento de resistencia del pueblo ucraniano contra la guerra depredadora e imperialista desatada por la Federación Rusa"
 
@@ -1930,7 +1952,7 @@
       "title"    : "Hay que anular la deuda externa de Ucrania",
       "url"      : "https://jacobinlat.com/2022/03/17/hay-que-anular-la-deuda-externa-de-ucrania/",
       "author"  : "Alexander Kravchuk",
-      "category" : "Izquierda, Invasión en 2022",
+      "category" : "Izquierda, Invasión",
       "date"     : "17/03/22",
       "desc" : "La deuda pública de Ucrania creció considerablemente gracias a los préstamos condicionados de la Unión Europea y del FMI. Con el fin de recuperar su futuro, el pueblo ucraniano exige que sea anulada."
 
@@ -1941,7 +1963,7 @@
       "title"    : "La guerra en Ucrania vista sobre el terreno",
       "url"      : "https://vientosur.info/la-guerra-en-ucrania-vista-sobre-el-terreno/",
       "author"  : "Oksana Dutchak",
-      "category" : "Derecho a resistir, Invasión en 2022",
+      "category" : "Derecho a resistir, Invasión",
       "date"     : "07/03/22",
       "desc" : "Una entrevista de gran interés para conocer de cerca el punto de vista y los sentimientos que embargan a la gente que trabaja por la emancipación en el interior de Ucrania, abordando múltiples cuestiones que forman parte también de las preocupaciones que recorren al movimiento de solidaridad con el pueblo ucraniano más allá de sus fronteras."
 
@@ -1952,7 +1974,7 @@
       "title"    : "Carta a la izquierda occidental escrita desde Kíiv",
       "url"      : "https://www.opendemocracy.net/es/democraciaabierta-es/carta-izquierda-occidental-desde-kiev/",
       "author"  : "Tarás Bilous",
-      "category" : "Invasión en 2022, Derecho a resistir",
+      "category" : "Invasión, Derecho a resistir",
       "date"     : "28/02/22",
       "desc" : "El &#39;antiimperialismo de los idiotas&#39; hizo que la gente hiciera la vista gorda ante las acciones de Rusia"
 

@@ -166,6 +166,15 @@
 
     
     <url>
+        <loc>https://entendiendoucrania.com/page/7/</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.2</priority>
+    </url>
+    
+    
+
+    
+    <url>
         <loc>https://entendiendoucrania.com/invasion/</loc>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
@@ -237,6 +246,22 @@
     
 
 
+
+
+    <url>
+        <loc>https://entendiendoucrania.com/crimenes/rusia-garantiza-impunidad-asesinatos-prisioneros</loc>
+        <lastmod>2024-10-17T00:00:00+02:00</lastmod>
+        <priority>0.8</priority>
+        <image:image><image:loc>https://entendiendoucrania.com/images/crimenes/coynash_3/img1_resized.webp</image:loc></image:image>
+    </url>
+
+
+    <url>
+        <loc>https://entendiendoucrania.com/global/alemania-ucrania-rusia-otan-ignorar-la-historia</loc>
+        <lastmod>2024-10-17T00:00:00+02:00</lastmod>
+        <priority>0.8</priority>
+        
+    </url>
 
 
     <url>
