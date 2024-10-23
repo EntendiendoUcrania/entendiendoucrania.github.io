@@ -134,21 +134,22 @@
 
     header {
       background-color: hsl(210, 20%, 98%, 0.95);
+      font-family: 'Encode Sans', sans-serif;
       text-align: center;
       position: absolute;
       z-index: 9999999999;
       width: 100%;
-      padding: 1rem 0 1rem 2rem;
+      padding: 1rem 0 1rem 1rem;
     }
   
     header a, header a:link, header a:visited{
       color: black;
-      font-weight: bold;
+      font-weight: 500;
     }
   
     header ul {
       color: black;
-      font-weight: bold;
+      font-weight: 500;
       font-variant-caps: small-caps;
     }
   
@@ -226,10 +227,6 @@
       list-style: none;
     }
     
-    nav li {
-      padding-bottom: 1em;
-      padding-left: 1em;
-    }
     
     nav a{
       text-decoration: none;

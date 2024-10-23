@@ -11,6 +11,14 @@
 
     
     <url>
+        <loc>https://entendiendoucrania.com/boletin</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+
+    
+    <url>
         <loc>https://entendiendoucrania.com/busqueda</loc>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
