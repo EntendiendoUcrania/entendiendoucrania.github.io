@@ -44,39 +44,27 @@
 
 <body>
     <header>
-        <a href="/"><img class="logo" src="/images/logos/logo3.webp" alt="Logo" width="600" height="338"></a>
-
-        <label for="nav-toggle" class="nav-toggle-label">
-    <span></span>
-</label>
-<input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Toggle Navigation">
-
-<nav>
+        <a href="/"><img class="logo" src="/images/logos/logo3.png" alt="Logo" width="600" height="338"></a>
+        <nav>
     <ul>
-        <li class="hide">Temas</li>
-        <li><ul class="hide">
-            
-                    <li><a href="\invasion/">Invasión</a></li>
-                    <li><a href="\derecho_resistir/">Derecho a resistir</a></li>
-                    <li><a href="\historia/">Historia</a></li>
-                    <li><a href="\maidan/">Maidán y Guerra en 2014</a></li>
-                    <li><a href="\crimea/">Crimea</a></li>
-                    <li><a href="\izquierda/">Izquierda</a></li>
-                    <li><a href="\feminismo/">Feminismo</a></li>
-                    <li><a href="\movimiento_lgbt/">Movimiento LGBT+</a></li>
-                    <li><a href="\anarquismo/">Anarquismo</a></li>
-                    <li><a href="\imperialismo/">Imperialismo ruso</a></li>
-                    <li><a href="\crimenes/">Crímenes rusos</a></li>
-                    <li><a href="\global/">Izq. global</a></li>
-        </ul></li>
-        
-            <li class="main-menu" ><a href="\busqueda">Búsqueda</a></li>
-            <li class="main-menu" ><a href="\boletin">Boletín</a></li>
-            <li class="main-menu" ><a href="\dona">Dona a Ucrania</a></li>
-            <li class="main-menu" ><a href="\porque">¿Por qué esta página?</a></li>
-            <li class="main-menu" ><a href="\contacto">Contacto</a></li>
+            <li class="main-menu" ><a href="\busqueda">Búsqueda</a></li><li class="main-menu" ><a href="\boletin">Boletín</a></li><li class="main-menu" ><a href="\dona">Dona a Ucrania</a></li><li class="main-menu" ><a href="\porque">¿Por qué esta página?</a></li><li class="main-menu" ><a href="\contacto">Contacto</a></li>
     </ul>
 </nav>
+
+<label class="hamburger">
+    <input type="checkbox" id="hamburgerCheckbox">
+</label>
+
+<aside class="navigator">
+    <div class="mob-nav">
+        <ul class="main-list">
+            <li><a href="/"><img class="logo" src="/images/logos/logo3.png" alt="Logo" width="600" height="338"></a></li>
+            <li>Temas</li>
+            <li class="little-li"><a href="\invasion/">Invasión</a></li><li class="little-li"><a href="\derecho_resistir/">Derecho a resistir</a></li><li class="little-li"><a href="\historia/">Historia</a></li><li class="little-li"><a href="\maidan/">Maidán y Guerra en 2014</a></li><li class="little-li"><a href="\crimea/">Crimea</a></li><li class="little-li"><a href="\izquierda/">Izquierda</a></li><li class="little-li"><a href="\feminismo/">Feminismo</a></li><li class="little-li"><a href="\movimiento_lgbt/">Movimiento LGBT+</a></li><li class="little-li"><a href="\anarquismo/">Anarquismo</a></li><li class="little-li"><a href="\imperialismo/">Imperialismo ruso</a></li><li class="little-li"><a href="\crimenes/">Crímenes rusos</a></li><li class="little-li"><a href="\global/">Izq. global</a></li>
+            <li class="main-menu" ><a href="\busqueda">Búsqueda</a></li><li class="main-menu" ><a href="\boletin">Boletín</a></li><li class="main-menu" ><a href="\dona">Dona a Ucrania</a></li><li class="main-menu" ><a href="\porque">¿Por qué esta página?</a></li><li class="main-menu" ><a href="\contacto">Contacto</a></li>
+        </ul>
+    </nav>
+</aside>
 
     </header>
     
@@ -388,7 +376,7 @@ $.extend($.validator.messages, {
 
     <script src="\js/opacity.js"></script>
 
-
+    <script src="/js/noscroll.js"></script>
 </body>
 </html>
 
