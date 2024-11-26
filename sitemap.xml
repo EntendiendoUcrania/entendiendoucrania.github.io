@@ -257,10 +257,18 @@
 
 
     <url>
+        <loc>https://entendiendoucrania.com/crimenes/salvar-infancia-ucrania</loc>
+        <lastmod>2024-11-26T00:00:00+01:00</lastmod>
+        <priority>0.8</priority>
+        <image:image><image:loc>https://entendiendoucrania.com/images/index/enfants.webp</image:loc></image:image>
+    </url>
+
+
+    <url>
         <loc>https://entendiendoucrania.com/izquierda/el-sindicato-se-como-nina</loc>
         <lastmod>2024-11-14T00:00:00+01:00</lastmod>
         <priority>0.8</priority>
-        <image:image><image:loc>https://entendiendoucrania.com/images/index/tu_imagen.webp</image:loc></image:image>
+        <image:image><image:loc>https://entendiendoucrania.com/images/index/nina.webp</image:loc></image:image>
     </url>
 
 
@@ -272,14 +280,14 @@
     </url>
 
 
+
+
     <url>
         <loc>https://entendiendoucrania.com/imperialismo/segunda-muerte-de-la-casa-slovo</loc>
         <lastmod>2024-10-29T00:00:00+01:00</lastmod>
         <priority>0.8</priority>
         <image:image><image:loc>https://entendiendoucrania.com/images/index/slovo.webp</image:loc></image:image>
     </url>
-
-
 
 
 

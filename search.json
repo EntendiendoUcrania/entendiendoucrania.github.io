@@ -2,6 +2,17 @@
   
     {
 
+      "title"    : "Hay que salvar a los niños y niñas de Ucrania",
+      "url"      : "https://entendiendoucrania.com/crimenes/salvar-infancia-ucrania",
+      "author"  : "Comité Francés de la Red Europea de Solidaridad con Ucrania",
+      "category" : "Crímenes rusos, Invasión en 2022",
+      "date"     : "20/11/24",
+      "desc" : "Deportados, rusificados, &#39;reeducados&#39;, reclutados por el ejército enemigo, negados en su identidad ucraniana... Un destino terrible para las y los niños atrapados en los territorios ocupados por el ejército de Putin."
+
+    } ,
+  
+    {
+
       "title"    : "El sindicato Sé como Nina contra el cierre de los hospitales",
       "url"      : "https://entendiendoucrania.com/izquierda/el-sindicato-se-como-nina",
       "author"  : "Sé como Nina",
@@ -24,23 +35,23 @@
   
     {
 
-      "title"    : "La segunda muerte de la casa de los escritores de Járkiv",
-      "url"      : "https://entendiendoucrania.com/imperialismo/segunda-muerte-de-la-casa-slovo",
-      "author"  : "Vira Aheieva",
-      "category" : "Imperialismo ruso, Crímenes rusos",
-      "date"     : "10/29/24",
-      "desc" : "Aheieva explora la historia y el impacto de la casa Slovo en Járkiv, símbolo del renacimiento cultural ucraniano de los años 1920 y víctima de la represión soviética y de los actuales bombardeos rusos."
-
-    } ,
-  
-    {
-
       "title"    : "El camino hacia la victoria y las tareas de la izquierda ucraniana",
       "url"      : "https://www.trasversales.net/t67movsoc.htm",
       "author"  : "Sotsialnyi Rukh",
       "category" : "Izquierda, Invasión",
       "date"     : "15/07/23",
       "desc" : "Sotsialnyi Rukh exige un enfoque sincero en la defensa de Ucrania, criticando la estrategia actual que favorece a la oligarquía y perpetúa la guerra. Aboga por una economía de guerra que priorice la movilización de recursos y derechos dignos para soldados, así como un diálogo abierto con el pueblo sobre objetivos alcanzables."
+
+    } ,
+  
+    {
+
+      "title"    : "La segunda muerte de la casa de los escritores de Járkiv",
+      "url"      : "https://entendiendoucrania.com/imperialismo/segunda-muerte-de-la-casa-slovo",
+      "author"  : "Vira Aheieva",
+      "category" : "Imperialismo ruso, Crímenes rusos",
+      "date"     : "10/29/24",
+      "desc" : "Aheieva explora la historia y el impacto de la casa Slovo en Járkiv, símbolo del renacimiento cultural ucraniano de los años 1920 y víctima de la represión soviética y de los actuales bombardeos rusos."
 
     } ,
   
