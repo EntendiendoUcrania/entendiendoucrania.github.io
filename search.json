@@ -2,6 +2,17 @@
   
     {
 
+      "title"    : "No quiero flores, quiero mi Ucrania: actos de resistencia de las mujeres contra la ocupación rusa",
+      "url"      : "https://entendiendoucrania.com/feminismo/no-quiero-flores",
+      "author"  : "Charlotte Higgins",
+      "category" : "Feminismo, Invasión",
+      "date"     : "28/12/24",
+      "desc" : "Relatos de mujeres bajo ocupación rusa que llevan a cabo actos de resistencia no violenta a través del movimiento Zla Mavka, enfrentando grandes riesgos."
+
+    } ,
+  
+    {
+
       "title"    : "Los sirios celebran la muerte en Ucrania de generales rusos implicados en crímenes de guerra en Siria",
       "url"      : "https://entendiendoucrania.com/imperialismo/los-sirios-celebran-la-muerte-de-generales-rusos",
       "author"  : "Mariia Shynkarenko | Leila Al-Shami",
@@ -16,7 +27,7 @@
       "title"    : "Hay que salvar a los niños y niñas de Ucrania",
       "url"      : "https://entendiendoucrania.com/crimenes/salvar-infancia-ucrania",
       "author"  : "Comité Francés de la Red Europea de Solidaridad con Ucrania",
-      "category" : "Crímenes rusos, Invasión en 2022",
+      "category" : "Crímenes rusos, Invasión",
       "date"     : "20/11/24",
       "desc" : "Deportados, rusificados, &#39;reeducados&#39;, reclutados por el ejército enemigo, negados en su identidad ucraniana... Un destino terrible para las y los niños atrapados en los territorios ocupados por el ejército de Putin."
 
