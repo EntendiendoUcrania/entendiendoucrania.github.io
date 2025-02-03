@@ -126,6 +126,14 @@
     
 
     
+    <url>
+        <loc>https://entendiendoucrania.com/imperialismo/page/2/</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.2</priority>
+    </url>
+    
+
+    
 
     
     <url>
@@ -254,6 +262,14 @@
     
 
 
+
+
+    <url>
+        <loc>https://entendiendoucrania.com/global/democracia-en-peligro-georgia</loc>
+        <lastmod>2025-02-03T00:00:00+02:00</lastmod>
+        <priority>0.8</priority>
+        <image:image><image:loc>https://entendiendoucrania.com/images/global/barkaia/img1_resized.webp</image:loc></image:image>
+    </url>
 
 
     <url>
