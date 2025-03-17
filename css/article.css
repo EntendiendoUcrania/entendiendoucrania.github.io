@@ -481,7 +481,7 @@ body.no-scroll {
     padding: 2rem 1.25rem;
   }
 
-  .body-article p {
+  .body-article p, li {
     font-family: 'Encode Sans', sans-serif;
     line-height: 1.7;
   }
